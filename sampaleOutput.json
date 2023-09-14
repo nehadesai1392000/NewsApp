@@ -1,0 +1,1302 @@
+Example request
+curl https: //newsapi.org/v2/everything -G \
+    -d q=Apple \
+    -d from=2023-06-22 \
+    -d sortBy=popularity \
+    -d apiKey=d17d26035d0c48a3ad27fc3ba2e26c57
+Example response
+{
+    "status": "ok",
+    "totalResults": 265,
+-"articles": [
++{ …
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Anya von Bremzen",
+            "title": "‘I no longer know how to think about borsch’",
+            "description": "The soup of my childhood has become a symbol of Putin’s assault on Ukrainian land, culture and heritage, of his drive to plunder and obliterate UkraineOn 25 February 2022, I woke up after a turbulent night checking news updates about Putin’s invasion of Ukrai…",
+            "url": "https://www.theguardian.com/news/2023/jun/22/i-no-longer-know-how-to-think-about-borsch",
+            "urlToImage": "https://i.guim.co.uk/img/media/660e9451a308f94100089d48c26b0d77270974c6/0_192_5760_3456/master/5760.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1ca1fbfcd62d3b1dc5bf3a6e46ee839f",
+            "publishedAt": "2023-06-22T05:00:02Z",
+            "content": "On 25 February 2022, I woke up after a turbulent night checking news updates about Putins invasion of Ukraine. Amid the shock and bouts of crying and doomscrolling, a seemingly trivial yet intimately… [+24610 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Juli Clover",
+            "title": "Apple Vision Pro 'Visual Search' Feature Can Identify Items, Copy Printed Text, Translate and More",
+            "description": "The Apple Vision Pro headset's visionOS operating system includes a feature called \"Visual Search,\" which sounds like it is similar to the Visual Lookup feature on the iPhone and the iPad.\n\n\n\n\n\nWith Visual Search, users can use the Vision Pro headset to get i…",
+            "url": "https://www.macrumors.com/2023/06/21/vision-pro-visual-search-feature/",
+            "urlToImage": "https://images.macrumors.com/t/_3ZdexFpOCvS8zchAikSJtoScBg=/2698x/article-new/2023/06/vision-pro-headset-1.jpg",
+            "publishedAt": "2023-06-22T00:39:15Z",
+            "content": "The Apple Vision Pro headset's visionOS operating system includes a feature called \"Visual Search,\" which sounds like it is similar to the Visual Lookup feature on the iPhone and the iPad.\r\nWith Visu… [+1181 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Mastodon.social"
+            },
+            "author": "John Gruber",
+            "title": "First Look at Early VisionOS Apps",
+            "description": "Attached: 2 images\n\nIt’s amazing how much the appearance of a Vision Pro app changes depending on wheher it’s built “Designed for iPad” against the iPadOS SDK or it is built as a proper Vision Pro app against the visionOS SDK.\n\nI think “Designed for iPad” app…",
+            "url": "https://mastodon.social/@simonbs/110585142353126566",
+            "urlToImage": "https://files.mastodon.social/media_attachments/files/110/585/142/079/090/526/original/c5c2a70103837b9a.png",
+            "publishedAt": "2023-06-22T01:54:25Z",
+            "content": "Simon B. Støvring:\n\n\n It’s amazing how much the appearance of a Vision Pro app changes\ndepending on whether it’s built “Designed for iPad” against the\niPadOS SDK or it is built as a proper Vision Pro… [+679 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "heise online"
+            },
+            "author": "Frank Schräer",
+            "title": "Donnerstag: Klagen gegen Amazon wegen Prime-Abos und Google wegen Werbe-Monopol",
+            "description": "Amazons Prime-Tricks + Googles Ad-Macht + Apps auf Rezept ohne Rückfrage + Apple-Patches gegen Lücken + Mario- & Pikachu-Spiele + #heiseshow zu Reddit & Intel",
+            "url": "https://www.heise.de/news/Donnerstag-Klagen-gegen-Amazon-wegen-Prime-Abos-und-Google-wegen-Werbe-Monopol-9194436.html",
+            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/4/2/5/9/3/1/5/thursday-500038da1812fca1.webp",
+            "publishedAt": "2023-06-22T04:30:00Z",
+            "content": "Dark Patterns sollen Kunden zu Prime-Abos verleiten, wirft die FTC Amazon vor. Dazu kämen ein Kündigung-Irrgarten und Behinderung der behördlichen Untersuchung, was zur Klage der FTC gegen Amazon füh… [+6385 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Filipe Espósito",
+            "title": "Apple releases official design kit with visionOS resources for Figma",
+            "description": "Earlier this month, Apple for the first time released an official design kit for Figma users with iOS 17 and iPadOS 17 resources. Now that the visionOS SDK is officially available to developers, the company has also made available a new design kit for those w…",
+            "url": "https://9to5mac.com/2023/06/21/visionos-design-kit-figma/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/06/visionOS-Figma.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2023-06-22T00:07:33Z",
+            "content": "Earlier this month, Apple for the first time released an official design kit for Figma users with iOS 17 and iPadOS 17 resources. Now that the visionOS SDK is officially available to developers, the … [+1659 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Filipe Espósito",
+            "title": "iOS 17 lets users easily change the app used to send messages with Siri",
+            "description": "It’s been a while since iOS users have been able to ask Siri to send a message to someone. And while this command uses iMessage or SMS by default, it also works if you specify a compatible third-party app. With iOS 17, Apple is making this even more intuitive…",
+            "url": "https://9to5mac.com/2023/06/21/ios-17-siri-apps-messages/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/06/Siri-iOS-17-Messages.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2023-06-22T03:36:52Z",
+            "content": "It’s been a while since iOS users have been able to ask Siri to send a message to someone. And while this command uses iMessage or SMS by default, it also works if you specify a compatible third-part… [+1623 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "AppleInsider"
+            },
+            "author": "news@appleinsider.com (Wesley Hilliard)",
+            "title": "Apple patched actively exploited iMessage bug in latest updates",
+            "description": "Don't hold off too long on updating to iOS 16.5.1 and the other new public releases, as Apple has patched multiple security issues that were actively exploited.iMessage vulnerability patchedApple released iOS 16.5.1, iPadOS 16.5.1, macOS Ventura 13.4.1, and w…",
+            "url": "https://appleinsider.com/articles/23/06/22/apple-patched-actively-exploited-imessage-bug-in-latest-updates",
+            "urlToImage": "https://photos5.appleinsider.com/gallery/55045-111712-hack-xl.jpg",
+            "publishedAt": "2023-06-22T00:24:33Z",
+            "content": "iMessage vulnerability patched\r\nDon't hold off too long on updating to iOS 16.5.1 and the other new public releases, as Apple has patched multiple security issues that were actively exploited.\r\nApple… [+1068 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "HYPEBEAST"
+            },
+            "author": "info@hypebeast.com (Hypebeast)",
+            "title": "Apple Has Filed To Own the IP Rights of the Visual Imagery of Granny Smiths",
+            "description": "Apple is embarking on a rather unusual trademark case that involves the actual fruit. For context, the 111 years old Fruit Union Suisse, which is symbolized by a red apple with a white cross, may have to change its logo due to Apple, the company, wanting to g…",
+            "url": "https://hypebeast.com/2023/6/apple-wants-ownership-ip-rights-of-the-visual-imagery-granny-smith-fruit",
+            "urlToImage": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F06%2Fapple-wants-ownership-ip-rights-of-the-visual-imagery-granny-smith-fruit-tw.jpg?w=960&cbr=1&q=90&fit=max",
+            "publishedAt": "2023-06-22T02:03:16Z",
+            "content": "Apple is embarking on a rather unusual trademark case that involves the actual fruit. \r\nFor context, the 111 years old Fruit Union Suisse, which is symbolized by a red apple with a white cross, may h… [+1182 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "佐藤信彦",
+            "title": "アップル、MRヘッドセット「Vision Pro」用SDKを提供開始--7月には開発者向けラボも開設",
+            "description": "Appleは、複合現実（MR）ヘッドセット「Apple Vision Pro」用のアプリ制作に必要な、ソフトウェア開発キット「visionOS SDK」などの提供を開始した。",
+            "url": "https://japan.cnet.com/article/35205572/",
+            "urlToImage": "https://japan.cnet.com/storage/2023/06/22/f6a7d1786b8eed4d0cc5c8a5fc04e1f0/t/640/480/d/2023_06_22_cnet_sato_nobuhiko_014_image_00.jpg",
+            "publishedAt": "2023-06-22T04:14:00Z",
+            "content": "AppleMRApple Vision ProvisionOS SDK\r\nVision ProApplevisionOSvisionOSvisionOS SDK\r\nVision ProXcodeSwiftUIRealityKitARKitTestFlightReality Composer Pro7UnityVision Pro\r\nApple Developer ProgramvisionOS … [+36 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Stephen Shankland （CNET News） 翻訳校正： 編集部",
+            "title": "「iOS 17」「macOS Sonoma」、パスキーで「Apple ID」ログインが可能に",
+            "description": "アップルはグーグルに倣い、「iOS 17」と「macOS Sonoma」において、パスキーで同社のウェブサイトやサービスにログインできるようにする予定だ。",
+            "url": "https://japan.cnet.com/article/35205549/",
+            "urlToImage": "https://japan.cnet.com/storage/2023/06/22/fbc9b973e92abdb8a43149f0e6739d2f/t/640/480/d/apple-safari-macos-passkey_1280x960.jpg",
+            "publishedAt": "2023-06-22T00:56:00Z",
+            "content": "AppleGoogleiOS 17iPadOS 17macOS Sonoma\r\nAppleiOSmacOSiPadOS2023Appleicloud.comApple ID\r\nFast Identity OnlineFIDOAllianceAppleGoogleMicrosoftIT\r\nAppleiCloudiPhoneMaciPadApplePC\r\nFIDO Alliance1\r\nQR\r\n1P… [+58 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Jason Cipriani （Special to ZDNET.com） 翻訳校正： 佐藤卓 長谷睦 （ガリレオ）",
+            "title": "アップル、ゼロデイ脆弱性を修正する「iPhone」「iPad」「Mac」向けアップデートを公開",
+            "description": "アップルが「iPhone」「iPad」「Mac」「Apple Watch」を対象とした一連のソフトウェアアップデートをリリースした。今回のアップデートはどれも、すでに悪用が確認されている既知のセキュリティ脆弱性を修正するものだ。",
+            "url": "https://japan.cnet.com/article/35205559/",
+            "urlToImage": "https://japan.cnet.com/storage/2023/06/22/75a918633c1f3a9a0cc564c755d13798/t/640/480/d/iphone-14-plus-in-yellow_1280x960.jpg",
+            "publishedAt": "2023-06-22T02:33:00Z",
+            "content": "Apple621iPhoneiPadMacApple WatchiOS 16.5.1iPadOS 16.5.1macOS 13.4.1watchOS 9.5.2\r\nApple\r\niPhoneiPadMac2CVE-2023-32434CVE-2023-32439\r\n1AppleiOS 15iPadOS 15MacApplemacOS MontereymacOS Big Sur\r\nApple Wa… [+68 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Les Numériques"
+            },
+            "author": "Rick",
+            "title": "Actualité : Bon plan – Les écouteurs true wireless Sony WF-1000XM4 \"5 étoiles\" à 200,34 €",
+            "description": "Les écouteurs true wireless Sony WF-1000XM4 sont proposés à 200,34 € chez Amazon. C'est actuellement l'un des meilleurs produit de notre comparatif.",
+            "url": "https://www.lesnumeriques.com/intra-ecouteur-true-wireless/bon-plan-les-ecouteurs-true-wireless-sony-wf-1000xm4-5-etoiles-a-200-34-n210758.html",
+            "urlToImage": "https://cdn.lesnumeriques.com/optim/test/16/164569/4bc09683-ecouteurs-sans-fil-sony-wf-1000xm4-l-elite-des-true-wireless-a-reduction-de-bruit-se-trouve-de-nouveaux-ambassadeurs__1200_630__1301-1564-3838-2895.jpeg",
+            "publishedAt": "2023-06-22T05:31:18Z",
+            "content": "Qu'on se le dise : sur le juteux marché des écouteurs sans fil haut de gamme, Sony ne se laissera pas déborder. Face à des Apple, Sennheiser et autres Devialet remontés comme jamais, les WF-1000XM4 m… [+1938 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Caschys Blog"
+            },
+            "author": "Olli",
+            "title": "iOS 17 Beta 2: Das sind die Neuerungen",
+            "description": "Apple hat gestern Abend die zweite Beta von iOS 17 für Tester veröffentlicht. Wie üblich möchten wir an dieser Stelle, die Neuerungen für euch ein wenig zusammenfassen (via via). In den Datenschutzeinstellungen für den Standort findet sich nun unter Systemdie…",
+            "url": "https://stadt-bremerhaven.de/ios-17-beta-2-das-sind-die-neuerungen/",
+            "urlToImage": "https://stadt-bremerhaven.de/wp-content/uploads/2023/06/IMAGE-2023-06-05-193438.jpg",
+            "publishedAt": "2023-06-22T04:30:33Z",
+            "content": "Apple hat gestern Abend die zweite Beta von iOS 17 für Tester veröffentlicht. Wie üblich möchten wir an dieser Stelle, die Neuerungen für euch ein wenig zusammenfassen (viavia). In den Datenschutzein… [+1387 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ifanr.com"
+            },
+            "author": "方嘉文",
+            "title": "早报 | 10 万 ChatGPT 用户数据被盗 / 新 iPhone SE 发布时间推迟 / 贾跃亭回应 FF 91 推迟交付",
+            "description": "· 《堡垒之夜》联手耐克打造沉浸式游戏地图\n· 坂本龙一传记台版正式发售\n· 别样肉客推出加热即食植物基汉堡#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n爱范儿 |\n原文链接 ·\n查看评论 ·\n新浪微博",
+            "url": "https://www.ifanr.com/1553427",
+            "urlToImage": "https://s3.ifanr.com/wp-content/uploads/2023/06/2.001-1.png",
+            "publishedAt": "2023-06-22T00:09:51Z",
+            "content": "<ul><li> 10 ChatGPT </li><li></li><li> ChatGPT </li><li> FF 91 </li><li></li><li></li><li> Vision Pro </li><li></li><li> iPhone SE </li><li></li><li></li><li>2024 AION V Plus </li><li></li><li></li><… [+899 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacStories"
+            },
+            "author": "John Voorhees",
+            "title": "Apple Publishes Updated Human Interface Guidelines for visionOS",
+            "description": "In addition to releasing the visionOS SDK and developer tools today, Apple has updated its Human Interface Guidelines and published additional visionOS documentation for developers. The updated HIG begins with an overview of designing for the Apple Vision Pro…",
+            "url": "https://www.macstories.net/news/apple-publishes-updated-human-interface-guidelines-for-visionos/",
+            "urlToImage": "https://cdn.macstories.net/wednesday-21-jun-2023-20-25-16-1687393550258.png",
+            "publishedAt": "2023-06-22T00:37:45Z",
+            "content": "In addition to releasing the visionOS SDK and developer tools today, Apple has updated its Human Interface Guidelines and published additional visionOS documentation for developers. The updated HIG b… [+718 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Touch Arcade"
+            },
+            "author": "Jared Nelson",
+            "title": "Out Now: ‘Fireball Wizard’, ‘Kloot Arena’, ‘Cat Quest II’, ‘Watch Odyssey’, ‘Bloons TD 6 Netflix’, ‘Bright Reappear’, ‘Lucid Lenses’ and More",
+            "description": "Each and every day new mobile games are hitting the App Store, and so each week we put together a big old list of all the best new releases of the past seven days. Back in the day the App Store would showcase the same games for a week, and then refresh those …",
+            "url": "https://toucharcade.com/2023/06/21/best-new-iphone-games-june-22nd/",
+            "urlToImage": null,
+            "publishedAt": "2023-06-22T03:24:16Z",
+            "content": "Each and every day new mobile games are hitting the App Store, and so each week we put together a big old list of all the best new releases of the past seven days. Back in the day the App Store would… [+6670 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motley Fool"
+            },
+            "author": "newsfeedback@fool.com (Motley Fool Staff)",
+            "title": "Alleged Industrial Espionage Makes an Interesting Story",
+            "description": "We also chat about Vertex Pharmaceuticals and its role at the center of cystic fibrosis treatment.",
+            "url": "https://www.fool.com/investing/2023/06/21/alleged-industrial-espionage-makes-an-interesting/",
+            "urlToImage": "https://g.foolcdn.com/editorial/images/736757/mfm_20230615.jpg",
+            "publishedAt": "2023-06-22T01:09:00Z",
+            "content": "In this podcast, Motley Fool senior analyst Bill Mann and host Deidre Woollard discuss:\r\n<ul><li>The high value of getting a leg up on the competition in the semiconductor industry.</li><li>If compan… [+25180 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Digiday"
+            },
+            "author": "Catherine Wolf",
+            "title": "Digiday+ Research Briefing: Meetings draw attendees to Cannes this year, but cost is a big barrier",
+            "description": "In this edition of the weekly Digiday+ Research Briefing, we share focal points from Digiday's recently released reports about how meetings — not parties — are driving attendance at Cannes this year and how smaller publishers depend the most on digital channe…",
+            "url": "http://digiday.com/marketing/digiday-research-briefing-meetings-draw-attendees-to-cannes-this-year-but-cost-is-a-big-barrier/",
+            "urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2023/06/money-tree-growing-digiday.jpg",
+            "publishedAt": "2023-06-22T04:01:00Z",
+            "content": "Welcome to the Digiday+ Research Briefing, your weekly curation of media and marketing research insights. As a member, you have full access to the Digiday+ Research below. In this edition, we share f… [+3768 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Digiday"
+            },
+            "author": "Antoinette Siu",
+            "title": "How AI is impacting search advertising’s growth",
+            "description": "Artificial intelligence may eventually change the reach and cost efficiency of search advertising.",
+            "url": "http://digiday.com/media-buying/how-ai-is-impacting-search-advertisings-growth/",
+            "urlToImage": "https://digiday.com/wp-content/uploads/sites/3/2023/03/ai-angel-devil-digiday.jpg",
+            "publishedAt": "2023-06-22T04:01:00Z",
+            "content": "Artificial intelligence may eventually change the reach and cost efficiency of search advertising.With recent developments in generative AI and tools like ChatGPT, many agencies are adapting to how p… [+4252 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Impress.co.jp"
+            },
+            "author": null,
+            "title": "アップル、「Apple Vision Pro」の開発者向けツールを提供",
+            "description": "Appleは、「Apple Vision Pro」の開発者向け「デベロッパツール」の提供を開始した。これにより、開発者は「Vision Pro」と「visionOS」の機能を活かしたアプリの開発が可能となる。",
+            "url": "https://k-tai.watch.impress.co.jp/docs/news/1510693.html",
+            "urlToImage": "https://k-tai.watch.impress.co.jp/img/ktw/list/1510/693/google.png",
+            "publishedAt": "2023-06-22T04:07:27Z",
+            "content": "AppleApple Vision ProVision ProvisionOS \r\n XcodeSwiftUIRealityKitARKitTestFlightApple3DXcodeReality Composer Pro \r\n Apple Vision Pro"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Impress.co.jp"
+            },
+            "author": null,
+            "title": "充電できない問題を修正したiOS 16.5.1。iPad OS 16.5.1も",
+            "description": "Appleは米国時間21日、iOSおよびiPad OS向けの最新OS「iOS/iPad OS 16.5.1」をリリースした。利用可能な機種は、iPhone 8以降、iPad Pro全モデル、iPad Air 第3世代以降、iPad 第5世代以降、iPad mini 第5世代以降。",
+            "url": "https://pc.watch.impress.co.jp/docs/news/1510711.html",
+            "urlToImage": "https://pc.watch.impress.co.jp/img/pcw/list/1510/711/001.jpg",
+            "publishedAt": "2023-06-22T04:02:39Z",
+            "content": "Apple21iOSiPad OSOSiOS/iPad OS 16.5.1iPhone 8iPad ProiPad Air 3iPad 5iPad mini 5 \r\n iOS/iPad OS 16.5.1Lightning - USB 32"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Googlewatchblog.de"
+            },
+            "author": "Jens",
+            "title": "Google Maps Streetview: Ab heute sind die Fahrzeuge in Deutschland unterwegs – hier wird gefahren (Liste)",
+            "description": "Die Google Maps Streetview-Fahrzeuge werden ab heute wieder auf den Straßen in Deutschland unterwegs sein. Wir zeigen euch, welche Fahrten zwischen Juni und Oktober geplant sind.Google Maps Streetview: Ab heute sind die Fahrzeuge in Deutschland unterwegs – hi…",
+            "url": "https://www.googlewatchblog.de/2023/06/google-maps-streetview-ab-heute-deutschland-fahrten/",
+            "urlToImage": "https://www.googlewatchblog.de/wp-content/uploads/google-maps-streetview-1.jpg",
+            "publishedAt": "2023-06-22T05:00:42Z",
+            "content": "Erst vor wenigen Tagen hatte Google das Comeback von Google Maps Streetview in Deutschland angekündigt, das nach 15 Jahren endlich wieder neue Straßenaufnahmen auf die Kartenplattform bringen soll – … [+8086 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sophos.com"
+            },
+            "author": "Paul Ducklin",
+            "title": "Apple patch fixes zero-day kernel hole reported by Kaspersky – update now!",
+            "description": "Apple didn't use the words \"Triangulation Trojan\", but you probably will.",
+            "url": "https://nakedsecurity.sophos.com/2023/06/22/apple-patch-fixes-zero-day-kernel-hole-reported-by-kaspersky-update-now/",
+            "urlToImage": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/06/apple-1200.png?w=775",
+            "publishedAt": "2023-06-22T00:36:20Z",
+            "content": "Right at the start of June 2023, well-known Russian cybersecurity outfit Kaspersky reported on a previously unknown strain of iPhone malware.\r\nMost notable about the original story was its strapline:… [+3995 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "DIE WELT"
+            },
+            "author": "Anja Ettel, Holger Zschäpitz",
+            "title": "Die Neun-Billionen-Wette bei Bitcoin und der klumpenlose Wunder-ETF",
+            "description": "In der heutigen Folge „Alles auf Aktien“ sprechen die Finanzjournalisten Anja Ettel und Holger Zschäpitz über eine schwarze Konjunkturprognose für Deutschland, Kursverluste bei Tesla und eine gesprungene Platte bei Fed-Chef Powell.",
+            "url": "https://www.welt.de/podcasts/alles-auf-aktien/article246000780/Boersen-Podcast-Bitcoin-ueber-30-000-Neue-Krypto-Ambitionen-bei-Blackrock-Deutsche-Bank-Co.html",
+            "urlToImage": "https://img.welt.de/img/podcasts/alles-auf-aktien/mobile228293627/5361351857-ci16x9-w1200/DWO-Podcast-AllesaufAktien-Zschaepitz-Ettel.jpg",
+            "publishedAt": "2023-06-22T03:02:33Z",
+            "content": "Außerdem geht es um Mayr Melnhof, Lanxess, BASF, Covestro, SGL Carbon, ZoomInfo, Ether, Blackrock, Deutsche Bank, L&amp;G Gerd Kommer Multifactor Equity ETF thesaurierend (WKN: WELT0A), L&amp;G Gerd … [+242 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "DIE WELT"
+            },
+            "author": "Robin Alexander, Dagmar Rosenfeld",
+            "title": "Merz, Pechstein oder Wüst – Wer ruiniert die Union?",
+            "description": "Welches Kalkül steckt hinter Hendrik Wüsts verfrühtem Vorstoß in der K-Frage? Wie konnte ein „sportpolitischer Impuls“ den kleinen Parteitag der CDU in einen Skandal verwandeln? Darüber diskutieren Dagmar Rosenfeld und Robin Alexander im Machtwechsel. Außerde…",
+            "url": "https://www.welt.de/podcasts/machtwechsel/article245997444/Merz-Pechstein-oder-Wuest-Wer-ruiniert-die-Union-Podcast.html",
+            "urlToImage": "https://img.welt.de/img/podcasts/machtwechsel/mobile244549614/1391350287-ci16x9-w1200/DWO-Podcast-Teaser-mit-2zu3.jpg",
+            "publishedAt": "2023-06-22T03:01:47Z",
+            "content": "Außerdem sprechen Dagmar Rosenfeld und Robin Alexander über eine Pressekonferenz ohne Fragen während des Berlin-Besuchs des chinesischen Premierministers.\r\nHier können Sie die Folge direkt hören:\r\nMa… [+1043 chars]"
+        },
+        {
+            "source": {
+                "id": "focus",
+                "name": "Focus"
+            },
+            "author": "dpa",
+            "title": "Längere Kino-Laufzeit - Oscar-Akademie verschärft Auflagen für Top-Sparte „Bester Film“",
+            "description": "Die Oscar-Akademie in Beverly Hills hat die Auflagen für Filme verschärft, die um den Oscar in der Top-Sparte „Bester Film“ wetteifern. In Zukunft müssen Filme länger im Kino gelaufen sein, als bisher.",
+            "url": "https://www.focus.de/panorama/welt/laengere-kino-laufzeit-oscar-akademie-verschaerft-auflagen-fuer-top-sparte-bester-film_id_197069403.html",
+            "urlToImage": "https://p6.focus.de/img/regional/berlin/id_188211859/ein-blick-auf-eine-oscars-statue-bei-der-oscar-verleihung-im-dolby-theatre-in-los-angeles..jpg?im=Crop%3D%280%2C64%2C2048%2C1025%29%3BResize%3D%281200%2C627%29&impolicy=perceptual&quality=mediumHigh&hash=2f55cd93d6a5a3f31c8fa2d4758f4e707819082b0b480f4b7a1492a45452c0bf",
+            "publishedAt": "2023-06-22T02:04:28Z",
+            "content": "Die Oscar-Akademie in Beverly Hills hat die Auflagen für Filme verschärft, die um den Oscar in der Top-Sparte Bester Film wetteifern. In Zukunft müssen Filme länger im Kino gelaufen sein, als bisher.… [+1282 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Inside.com.tw"
+            },
+            "author": "Sisley",
+            "title": "開發者歡呼吧！蘋果宣布推出 Apple Vision Pro App 開發者工具",
+            "description": "開發者可以使用自己已從其他 Apple 平台熟知的基礎框架，例如 Xcode、SwiftUI、RealityKit、ARKit 和 TestFlight 等強大技術，打造運用 Apple Vision Pro 突破性功能的 app 體驗。",
+            "url": "https://www.inside.com.tw/article/31979-developer-tools-to-create-spatial-experiences-for-apple-vision-pro-now-available",
+            "urlToImage": "https://bucket-img.tnlmedia.com/cabinet/2023/06/c42c425b-2896-4361-ba55-96437592fbf8.jpg?w=1200&h=630&fit=crop&auto=compress",
+            "publishedAt": "2023-06-22T02:11:00Z",
+            "content": "Arm 2021 IP SoCSLC MMU IP CPU GPU Arm SoC \r\n Arm TCS23 SoC Armv9.2 TCS23 SoC TCS23 TCS23  \r\n TCS23\r\nTCS23 Arm IP CPUGPU IP \r\n<ul><li> Arm GPU GPU Immortalis-G720Mali-G720 Mali-G620</li><li>Armv9.2 Co… [+2506 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ascii.jp"
+            },
+            "author": "ASCII",
+            "title": "アップル「Vision Pro」開発キット提供開始　Unityアプリは7月から移植可能に",
+            "description": "アップルは6月21日、「Apple Vision Pro」のアプリを開発できる「visionOSソフトウェア開発キット（SDK）」の提供を開始した。7月にはテスト用ハードウェアを試せる施設「デベロッパラボ」をオープンし、Unityアプリのポーティングツールも提供する予定だ。",
+            "url": "https://weekly.ascii.jp/elem/000/004/142/4142048/",
+            "urlToImage": "https://ascii.jp/img/2023/06/22/3557293/l/c71e321fed7db0ce.png",
+            "publishedAt": "2023-06-22T03:55:00Z",
+            "content": "621Apple Vision ProvisionOSSDK\r\nvisionOSSDKApple Developer ProgramXcodeXcode\r\nvisionOSApp Store\r\n7Unity\r\nApple Vision ProComplete HeartX"
+        },
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": "Eric Song",
+            "title": "Daily Deals: Alienware m15 RTX 3070 Ti Gaming Laptop for $1099, Lowest Price Ever on Apple iPad, Price Drops on Current-Gen GPUs, and More",
+            "description": null,
+            "url": "https://www.ign.com/articles/daily-deals-june-21-2023",
+            "urlToImage": "https://assets-prd.ignimgs.com/2023/06/22/062123-1687392813016.jpg?width=1280",
+            "publishedAt": "2023-06-22T00:20:00Z",
+            "content": "Today's daily deals for Wednesday, June 21 include an Alienware m15 RTX 3070 Ti gaming laptop for only $1100, price drops on current-gen AMD Radeon and NVIDIA GeForce GPUs, the lowest price we've eve… [+6537 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Geekpark.net"
+            },
+            "author": null,
+            "title": "对话蓝晶微生物：科学家建工厂，要做game changer就别无选择",
+            "description": "访、文 ｜ 凌梓郡 卫诗婕\n编辑 ｜ 卫诗婕\n \n江苏盐城滨海区矗立着高大的白色风车，狭长的扇叶日夜转动，将风能转为电能。蓝晶微生物的崭新工厂就位于这处「海上风电第一城」。\n \n仅仅用了一年，在占地86000平方米的土地上，其中的一期工厂走完了动工、建成到试生产的全程。而为了第一款产品：海洋降解生物聚合物 —— 蓝晶™ PHA 上市，蓝晶已经准备了六年。2023年3月的第一天，产品发布会上，蓝晶人迎来了这个时刻。\n \n随着产能接受预定。几层楼高、十几吨的发酵罐将全面启动，经历产能爬坡，最终达到每年5000吨的产能…",
+            "url": "https://www.geekpark.net/news/321033",
+            "urlToImage": "https://imgslim.geekpark.net/uploads/image/file/99/6b/996beb094d59a77247be20fa05e36766.png",
+            "publishedAt": "2023-06-22T03:07:15Z",
+            "content": "86000 —— ™ PHA 20233\r\n5000——PHA\r\n——\r\n2016IGEMMIT\r\n rule breaker\r\n——\r\n——ego\r\n 1 100 50 \r\nPart 1 \r\n2020\r\n2018\r\n——\r\nPHA ——\r\n Learning \r\n2018 10 \r\n240 burn rate 100 \r\n2017——\r\n201810\r\n8971/3\r\n 18 18 \r\nPar… [+613 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Sspai.com"
+            },
+            "author": "Matrix机器人",
+            "title": "新玩意 150｜少数派的作者们最近买了啥？",
+            "description": "关于栏目为了满足读者们对于《新玩意》栏目加更的需求，机器人特地邀请了Matrix作者们也来聊聊自己近期购买的新奇产品。喜欢本栏目的话，欢迎充电或评论文章来表达自己的喜爱，你的每一次真心夸赞或建议，都是 ...查看全文",
+            "url": "https://sspai.com/post/80501",
+            "urlToImage": "https://cdn.sspai.com/6/21/2023/article/e492f700-bf58-e354-33fe-17ab31ec00e1.png",
+            "publishedAt": "2023-06-22T03:32:05Z",
+            "content": "Matrix \r\n@LevinsonM3\r\nPAW3395 CAD MX Master 3 \r\n 3395 M3 58g 141g MX Master 3 60% HSK + 39g 2.4G DPI \r\n 219\r\nUSB A to C \r\nB G 2.4G \r\nMX Master 3 \r\n MX Master 3 CAD \r\n 20 3395 DPI RPT \r\n@lep BMW i4 eD… [+837 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Tinhte.vn"
+            },
+            "author": "no-reply@tinhte.vn (Tuanhtran), Tuanhtran",
+            "title": "5 lý do bạn nên có một chiếc đồng hồ thông minh",
+            "description": "Việc hữu dụng của đồng hồ thông minh hiện tại mình vẫn thấy vẫn đang còn có nhiều tranh cãi và có nhiều ý mình thấy đúng. Nhưng nhìn chung về trải nghiệm của riêng cá nhân mình thì mình thấy nó vẫn là một thiết bị mà mình nên có và sau đây là một…",
+            "url": "https://tinhte.vn/thread/5-ly-do-ban-nen-co-mot-chiec-dong-ho-thong-minh.3682456/",
+            "urlToImage": "https://photo2.tinhte.vn/data/attachment-files/2023/06/6470026_Cover-5-ly-do-ban-nen-co-mot-chiec-dong-ho-thong-minh-tinhte-tuanhtran.jpg",
+            "publishedAt": "2023-06-22T03:40:39Z",
+            "content": "Mình không phi ngi hay chy nhng mình có thng dùng track khi á banh, mình có th bit c hôm á mình á có gng sc hay không hay pace trung bình là bao nhiêu ln sau chy ch hp lý hn và tn sc hn. Ngoài ra, mì… [+596 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Cult of Mac"
+            },
+            "author": "Rajesh Pandey",
+            "title": "iOS 17 developer beta 2: All the new features and changes",
+            "description": "iOS 17 and iPadOS 17 developer beta 2 are here with several new features and changes. Here's a look at everything new.\n(via Cult of Mac - Tech and culture through an Apple lens)",
+            "url": "https://www.cultofmac.com/821297/ios-17-developer-beta-2-new-features-changes/",
+            "urlToImage": "https://www.cultofmac.com/wp-content/uploads/2023/06/ios-17-preview.jpg",
+            "publishedAt": "2023-06-22T05:48:50Z",
+            "content": "A couple of weeks after the first build, Apple seeded the second iOS 17 and iPadOS 17 developer betas. Since the OSes are still in development, the second beta packs several changes and enhancements.… [+3302 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Los Angeles Times"
+            },
+            "author": "Josh Rottenberg, Glenn Whipp",
+            "title": "Los Oscar están cambiando las reglas para la mejor película. Esto es lo que podría significar",
+            "description": "En su último esfuerzo por enfrentar un panorama teatral cambiante, la academia de cine anunció nuevas reglas de elegibilidad para la mejor película en la edición 97 de los Oscar.",
+            "url": "https://www.latimes.com/espanol/entretenimiento/articulo/2023-06-21/los-oscar-estan-cambiando-las-reglas-para-la-mejor-pelicula-esto-es-lo-que-podria-significar",
+            "urlToImage": "https://ca-times.brightspotcdn.com/dims4/default/6150be9/2147483647/strip/true/crop/4200x2205+0+508/resize/1200x630!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F25%2F30%2F1051c6b448c0b41ea2e2262e9e65%2F1786393-et-0302-oscars-als-1280.JPG",
+            "publishedAt": "2023-06-22T00:48:25Z",
+            "content": "En su último esfuerzo por lidiar con un panorama de exhibición cambiante, la academia cinematográfica anunció nuevas reglas el miércoles que ampliarán el requisito teatral para que las películas cali… [+4680 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Los Angeles Times"
+            },
+            "author": "Dan Woike",
+            "title": "NBA 2023 draft: 7-4 Victor Wembanyama spurs visions of superstardom",
+            "description": "At 7-4 with skills of a guard, Victor Wembanyama should be the top pick Thursday in the NBA draft by the San Antonio Spurs and has greatness often compared to LeBron James.",
+            "url": "https://www.latimes.com/sports/lakers/story/2023-06-21/nba-2023-draft-victor-wembanyama-spurs-first-pick",
+            "urlToImage": "https://ca-times.brightspotcdn.com/dims4/default/a2e3de7/2147483647/strip/true/crop/5150x2704+0+0/resize/1200x630!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd8%2Ffa%2F37f473ee45ba9cdd2769be512789%2Fmariners-yankees-baseball-60550.jpg",
+            "publishedAt": "2023-06-22T00:58:47Z",
+            "content": "NEW YORK  Victor Wembanyama wants to see the city, but hes the New York attraction no one seems able to miss. From being mobbed at the airport to the autograph hounds parked outside his Times Square … [+7252 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Macotakara.jp"
+            },
+            "author": "danbo",
+            "title": "Apple、デベロッパー向けにvisionOS SDKを含んだ「Xcode 15ベータ版2」の提供を開始",
+            "description": "Get started with your visionS apps\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- テキスト -->\n\nAppleが、デベロッパー向けに「visionOS SDK」を含んだ「Xcode 15ベータ版2」の提供を開始したと発表しています。\nこれには、Reality Composer Pro（visionOS用の3Dコンテンツを簡単にプレビューして準備できる新ツール）も含まれます。\n既存のプロジェクトにvisionOSター…",
+            "url": "https://www.macotakara.jp/visionOS/entry-44959.html",
+            "urlToImage": "https://www.macotakara.jp/archives/001/202306/3790a15dab9af0b8.jpg",
+            "publishedAt": "2023-06-22T00:45:18Z",
+            "content": "ApplevisionOS SDKXcode 152\r\nReality Composer ProvisionOS3D\r\nvisionOSXcode\r\nvisionOS"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Unwire.hk"
+            },
+            "author": "藍骨",
+            "title": "Apple 推出 visionOS 軟件開發工具　下月於世界各地開設開發者實驗室",
+            "description": "Apple 在 WWDC 上公佈了 Vision Pro，其中使用 visionOS 系統雖然已經有基本功能，但未來仍然需要第三方開發者為其開發各種 App 來充實生態系統。Apple 最近就推出開發工具，並開設開發中心，讓開發者更容易測試和尋求協助。\nThe post Apple 推出 visionOS 軟件開發工具　下月於世界各地開設開發者實驗室 appeared first on 香港 unwire.hk 玩生活．樂科技.",
+            "url": "https://unwire.hk/2023/06/22/developer-tools-to-create-spatial-experiences-for-apple-vision-pro/fun-tech/",
+            "urlToImage": "https://cdn.unwire.hk/wp-content/uploads/2023/06/download-48.png",
+            "publishedAt": "2023-06-22T04:35:41Z",
+            "content": "Apple WWDC Vision Pro visionOS App Apple \r\nApple visionOS App Vision Pro Xcode Reality Composer Pro 3D Vision Pro visionOS simulator\r\nApple (Developer Lab) visionOS App Apple \r\nApple visionOS App Vis… [+14 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Unwire.hk"
+            },
+            "author": "唐美鳳",
+            "title": "成功突破 Apple 防線 假冒 Trezor Wallet 程式現身 App Store 騙錢",
+            "description": "隨著加密貨幣技術日趨普及，相關的手機錢包程式亦越來越多，有不法之徒趁機推出假冒程式嘗試詐騙用戶，最近有一款甚至逃過 Apple 人員的審查，成功登陸 App Store。日前律師 Rafael Yakobi 在 Twitter 提醒網民，假冒的 Trezor Suite Lite 在 App Store 成功上架，更成為了搜索的榜首。\nThe post 成功突破 Apple 防線 假冒 Trezor Wallet 程式現身 App Store 騙錢 appeared first on 香港 unwire.hk 玩…",
+            "url": "https://unwire.hk/2023/06/22/fake-trezor-wallet-app-slips-through-apple-app-store/tech-secure/",
+            "urlToImage": "https://cdn.unwire.hk/wp-content/uploads/2023/06/03-21.png",
+            "publishedAt": "2023-06-22T04:50:23Z",
+            "content": "Apple App Store Rafael Yakobi Twitter Trezor Suite Lite App Store \r\nYakobi The Crypto Lawyers Twitter Trezor Wallet Suite App Store iPhone iPad Yakobi Trezor Trezor Suite Lite Trezor Wallet Suite\r\n T… [+62 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacGeneration"
+            },
+            "author": "Mickaël Bazoge",
+            "title": "Sortie de veille : le Vision Pro aurait pu en faire bien plus",
+            "description": "Tous les matins de la semaine, écoutez Sortie de veille, le podcast quotidien de MacGeneration ! En plus ou moins dix minutes, on fait le tour de l'actualité de la veille, avec en plus un test, une interview, ou un retour sur une info.\n\nApple a mis de côté pa…",
+            "url": "https://www.macg.co/podcasts/2023/06/sortie-de-veille-le-vision-pro-aurait-pu-en-faire-bien-plus-137715",
+            "urlToImage": "https://files.staticmacg.com/macgupload/icon.png",
+            "publishedAt": "2023-06-22T04:00:37Z",
+            "content": "Tous les matins de la semaine, écoutez Sortie de veille, le podcast quotidien de MacGeneration ! En plus ou moins dix minutes, on fait le tour de l'actualité de la veille, avec en plus un test, une i… [+1081 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Iphones.ru"
+            },
+            "author": "Артём Баусов",
+            "title": "Как выглядит интерфейс шлема Apple Vision Pro в разных приложениях. Много скриншотов",
+            "description": "Сегодня ночью вышла первая бета-версия visionOS для разработчиков. С помощью неё можно понять, как работают многие элементы шлема Vision Pro. В новой версии Xcode появился инструмент для эмуляции visionOS. Ресурс 9to5Mac поделился скриншотами интерфейса опера…",
+            "url": "https://www.iphones.ru/iNotes/kak-vyglyadit-interfeys-shlema-apple-vision-pro-v-raznyh-prilozheniyah-mnogo-skrinshotov-06-22-2023",
+            "urlToImage": "https://www.iphones.ru/wp-content/plugins/wonderm00ns-simple-facebook-open-graph-tags/fbimg.php?img=https%3A%2F%2Fwww.iphones.ru%2Fwp-content%2Fuploads%2F2023%2F06%2FIMG_4560.jpeg",
+            "publishedAt": "2023-06-22T05:51:06Z",
+            "content": "- visionOS . , Vision Pro.\r\n Xcode visionOS. 9to5Mac .\r\n, :\r\n-\r\nSiri\r\n Spotlight\r\nFreeform\r\n , , :\r\n visionOS . . [9to5]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Expansion.com"
+            },
+            "author": "expansion.com",
+            "title": "La Primera de Expansión sobre CEOE y bajada de impuestos, Amancio Ortega y Santander",
+            "description": "En cuanto a la agenda del día, estaremos atentos a la Comunidad de Madrid, porque hoy culminará el debate de investidura de Isabel Díaz Ayuso con la votación de la Asamblea a su ca",
+            "url": "https://www.expansion.com/podcasts/2023/06/22/6493da8b468aebbf638b458f.html",
+            "urlToImage": "https://phantom-expansion.unidadeditorial.es/72234033a0bc4937b8231a1045b0fa69/f/jpg/assets/multimedia/imagenes/2023/06/22/16874100680584.jpg",
+            "publishedAt": "2023-06-22T05:34:13Z",
+            "content": "Este jueves les contamos que la CEOE pedirá al próximo Gobierno bajar el impuesto de Sociedades, IRPF y las cuotas a la Seguridad Social. Además, hablaremos con nuestra periodistas especializada en i… [+740 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CleanTechnica"
+            },
+            "author": "David Waterworth",
+            "title": "Great Wall ORA Test Drive",
+            "description": "Although Great Wall Motor has marketed a whole litter of “Cats” in China (Good, Black, White, and IQ), Australia is only receiving one version. It will be marketed as the GWM ORA. I hope that the other versions will make it here eventually. In the meantime, w…",
+            "url": "https://cleantechnica.com/2023/06/21/great-wall-ora-test-drive/",
+            "urlToImage": "https://cleantechnica.com/files/2023/06/Tesla-Model-3-and-Ora-Cat-Australia.jpeg",
+            "publishedAt": "2023-06-22T02:00:01Z",
+            "content": "Although Great Wall Motor has marketed a whole litter of “Cats” in China (Good, Black, White, and IQ), Australia is only receiving one version. It will be marketed as the GWM ORA. I hope that the oth… [+6970 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "AdExchanger"
+            },
+            "author": "AdExchanger",
+            "title": "Do Programmers Care How Viewers Feel?; Apple Vs. Conversion KPIs",
+            "description": "Here’s today’s AdExchanger.com news round-up… Want it by email? Sign up here. Looking For ADvice No one likes cruddy TV ads. But how much of a problem are they, really?\nThe post Do Programmers Care How Viewers Feel?; Apple Vs. Conversion KPIs appeared first o…",
+            "url": "http://www.adexchanger.com/ad-exchange-news/thursday-22062023/",
+            "urlToImage": "https://www.adexchanger.com/wp-content/uploads/2020/03/comic_landofthegiants300-e1666904800328.jpg",
+            "publishedAt": "2023-06-22T04:03:14Z",
+            "content": "Heres todays AdExchanger.com news round-up Want it by email? Sign up here.\r\nLooking For ADvice\r\nNo one likes cruddy TV ads. But how much of a problem are they, really?\r\nEnough for Comcast-owned FreeW… [+3329 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Screen Rant"
+            },
+            "author": "Kara Hedash, Aleena Malik",
+            "title": "Where To Watch Every Fast & Furious Movie",
+            "description": "Where can you watch all the Fast &amp; Furious movies? Here's the best place to stream each and every action-packed flick in the saga.",
+            "url": "https://screenrant.com/where-to-watch-every-fast-furious-movie/",
+            "urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/08/Fast-and-Furious-Movies-after-Hobbs-and-Shaw.jpg",
+            "publishedAt": "2023-06-22T02:14:24Z",
+            "content": "Find out where you can watch every Fast &amp; Furiousmovie right now for an action-packed good time.\r\nThe Fast &amp; Furious franchise has taken the world by storm, as audiences watch mean driving ma… [+8185 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "iphone-ticker.de › iPhone-News seit 2007"
+            },
+            "author": "Nicolas",
+            "title": "iOS 17 Beta 2: Vorabversion bislang erstaunlich stabil und zuverlässig",
+            "description": "Genau 17 Tage liegt die WWDC-Entwicklerkonferenz, auf der Apple am 5. Juni erstmals einen Ausblick auf das kommende iPhone-Betriebssystem gewährt hat, jetzt hinter uns. Für viele Betatester stand damit bereits fest, was in dieser Woche noch passieren würde: A…",
+            "url": "https://www.iphone-ticker.de/ios-17-beta-2-vorabversion-bislang-erstaunlich-stabil-und-zuverlaessig-215153/",
+            "urlToImage": "https://images.iphone-ticker.de/wp-content/uploads/2023/06/ios-17-beta-2.jpg",
+            "publishedAt": "2023-06-22T05:29:08Z",
+            "content": "Genau 17 Tage liegt die WWDC-Entwicklerkonferenz, auf der Apple am 5. Juni erstmals einen Ausblick auf das kommende iPhone-Betriebssystem gewährt hat, jetzt hinter uns.\r\nFür viele Betatester stand da… [+1678 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Www.nzz.ch"
+            },
+            "author": "Dieter Bachmann (dba)",
+            "title": "Ein Gesuch von Apple sorgt in der Schweiz für Aufregung: Wo sind Äpfel als Marke schutzfähig?",
+            "description": "Vor Jahren hat ein Disput zwischen dem Technologiekonzern und den SBB um das Design der Bahnhofsuhr für Schlagzeilen gesorgt. In einem neuen Fall sind es die Obstbauern.",
+            "url": "https://www.nzz.ch/wirtschaft/gesuch-von-apple-sorgt-in-der-schweiz-fuer-aufregung-wo-sind-aepfel-als-marke-schutzfaehig-ld.1743616",
+            "urlToImage": "https://img.nzz.ch/2022/01/17/973e97d0-bedf-4c6c-bde0-a2e3209cea5b.jpeg?width=1200&height=675&fit=bound&quality=75&auto=webp&crop=5760,3240,x0,y600&wmark=nzz",
+            "publishedAt": "2023-06-22T03:30:00Z",
+            "content": "Äpfel sind auch Juristenfutter.\r\nEs ist eine David-gegen-Goliath-Geschichte, wie man sie gerne liest: «Apple bedrängt Schweizer Obstverband» unter diesem oder ähnlichen Titeln berichten Medien im In-… [+3956 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Www.nzz.ch"
+            },
+            "author": "Jennifer Rieger (rje)",
+            "title": "PODCAST - Können wir lernen, Glück zu haben?",
+            "description": "Zufälle fühlen sich manchmal an wie Magie: Wir denken an eine alte Freundin, plötzlich ruft sie an. Oder laufen in einer fremden Stadt dem Nachbarn über den Weg. In der neuen Folge von «NZZ Megahertz» erzählt der Serendipitätsforscher Christian Busch, was Glü…",
+            "url": "https://www.nzz.ch/podcast/koennen-wir-lernen-glueck-zu-haben-christian-busch-ld.1743214",
+            "urlToImage": "https://img.nzz.ch/2023/06/21/3208daea-3e0c-4bdf-a352-a93be737ada8.jpeg?width=1200&height=674&fit=bound&quality=75&auto=webp&crop=2644,1486,x0,y3&wmark=nzz",
+            "publishedAt": "2023-06-22T01:00:00Z",
+            "content": "Zufall oder Schicksal? Egal, ob man an höhere Mächte glaubt oder nicht: Mit der richtigen Einstellung könne man glückliche Zufälle begünstigen, sagt Christian Busch.\r\nHören und abonnieren kannst du d… [+1248 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ipadizate.com"
+            },
+            "author": "Gabriela Martínez",
+            "title": "El Apple Car reinventará algo que nunca ha cambiado: el cinturón de seguridad",
+            "description": "Así ha sido durante una década. Cuando estamos a punto de olvidarnos del Apple Car, una noticia nos confirma que uno de los proyectos más ambiciosos de Apple sigue vivo. Gracias una patente otorgada recientemente, se sabe que Apple sigue pensando en ofrecer u…",
+            "url": "https://ipadizate.com/apple-car/el-apple-car-reinventara-algo-que-nunca-ha-cambiado-el-cinturon-de-seguridad",
+            "urlToImage": "https://ipadizate.com/hero/2022/12/51797-102676-50589-99604-apple-car-xl-xl.jpg?width=1200",
+            "publishedAt": "2023-06-22T04:17:04Z",
+            "content": "El Apple Car sigue en desarrollo\r\nAsí ha sido durante una década. Cuando estamos a punto de olvidarnos del Apple Car, una noticia nos confirma que uno de los proyectos más ambiciosos de Apple sigue v… [+2176 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Natalie.mu"
+            },
+            "author": "音楽ナタリー",
+            "title": "「TIF」にSW!CH、パンナナ、ひとさい、MMMら14組追加",
+            "description": "8月4～6日に東京・お台場の青海周辺エリアで行われるアイドルフェス「TOKYO IDOL FESTIVAL 2023」の出演者第8弾が発表された。",
+            "url": "https://natalie.mu/music/news/529803",
+            "urlToImage": "https://ogre.natalie.mu/media/news/music/2023/0622/SWiCH_art202306.jpg?impolicy=twitter_card_feature_crop",
+            "publishedAt": "2023-06-22T05:26:00Z",
+            "content": "ANA®KIE#SW!CHZUTTOMOTTOStrawberry GirlsBAKUMON#PANnana -7-1Brave Mental Orchestra\r\nMalcolm Mask McLarenOnephony1462523:59TIF2023T202384 202385 202386 \r\n1\r\niLiFE! / Appare! / / / AMEFURASSHI / / / LOV… [+1549 chars]"
+        },
+        {
+            "source": {
+                "id": "wirtschafts-woche",
+                "name": "Wirtschafts Woche"
+            },
+            "author": "Wirtschaftswoche",
+            "title": "Google: Warum die Street-View-Autos wieder fahren",
+            "description": "Google lässt wieder Kamera-Fahrzeuge durch Deutschland rollen. Die alten Street-View-Bilder sollen erneuert werden. Wollen Bürger ihre Hausfassade nicht im Netz sehen, können sie widersprechen.",
+            "url": "https://www.wiwo.de/unternehmen/it/google-warum-die-street-view-autos-wieder-fahren/29220744.html",
+            "urlToImage": "https://www.wiwo.de/images/google-street-view-kamerawagen/29220742/3-format11240.jpg",
+            "publishedAt": "2023-06-22T04:21:52Z",
+            "content": "Eine virtuelle Fahrt mit Google Street View durch deutsche Großstädte gleicht einer Zeitreise. Auf den Panorama-Fotos des Internet-Riesen sind zum Beispiel noch die Filialen der Drogeriekette Schleck… [+5767 chars]"
+        },
+        {
+            "source": {
+                "id": "wirtschafts-woche",
+                "name": "Wirtschafts Woche"
+            },
+            "author": "Michael Kroker",
+            "title": "Neuer Bitkom-Chef: Kampfsportler mit der Vorliebe fürs „gnadenlose“ Vorgehen",
+            "description": "Der Chef des Banknotendruckers Giesecke+Devrient ist nun auch Präsident des einflussreichen Branchenverbandes Bitkom. Ihm eilt der Ruf eiserner Disziplin voraus – als Karate-Kämpfer wie als Manager.",
+            "url": "https://www.wiwo.de/technologie/digitale-welt/neuer-bitkom-chef-kampfsportler-mit-der-vorliebe-fuers-gnadenlose-vorgehen/29218378.html",
+            "urlToImage": "https://www.wiwo.de/images/wolf_heider_sawall_fuer_wiwo/29219296/5-format11240.jpg",
+            "publishedAt": "2023-06-22T05:31:55Z",
+            "content": "Auf den ersten Blick wirkt Ralf Wintergerst wie der Prototyp eines Managers heutiger Tage: Drahtig, schlank und von hochgewachsener Statur fällt der Vorstandschef des Banknotendruckers und IT-Sicherh… [+6111 chars]"
+        },
+        {
+            "source": {
+                "id": "wirtschafts-woche",
+                "name": "Wirtschafts Woche"
+            },
+            "author": "Matthias Hohensee",
+            "title": "Aleph-Alpha-Gründer Jonas Andrulis: „Das europäische KI-Gesetz behindert Start-ups“",
+            "description": "Jonas Andrulis, Gründer der deutschen KI-Hoffnung Aleph Alpha, warnt vor den Folgen zu früher Regulierung – und verrät, warum er sich jetzt ausgerechnet mit dem vermeintlichen IT-Fossil Hewlett Packard zusammentut.",
+            "url": "https://www.wiwo.de/unternehmen/it/aleph-alpha-gruender-jonas-andrulis-das-europaeische-ki-gesetz-behindert-start-ups/29218628.html",
+            "urlToImage": "https://www.wiwo.de/images/100-pro-imago-creative-classic-5-194087453-highres/29219646/2-format11240.jpg",
+            "publishedAt": "2023-06-22T05:13:09Z",
+            "content": "Zusammen mit Samuel Weinbach gründete der Wirtschaftsingenieur Jonas Andrulis 2019 in Heidelberg Aleph Alpha das heute als größte deutsche KI-Hoffnung gilt. Im Vergleich zu den IT-Giganten aus den US… [+7640 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hvg.hu"
+            },
+            "author": "hvg@hvg.hu",
+            "title": "Új korszak jöhet a biztonsági öveknél, megváltozhatnak a gombok",
+            "description": "Egy érdekes, ám kissé homályos szabadalom mentén újítaná meg az évtizedek óta változatlan biztonsági övet az Apple.",
+            "url": "https://hvg.hu/tudomany/20230622_apple_car_szabadalom_biztonsagi_ov_pirosan_vilagito_ov_csat_becsatolas_feny",
+            "urlToImage": "https://api.hvg.hu/Img/7fcefbf8-ac48-4ee6-aef5-32203afa118c/6d1e4636-5679-4ffa-816e-7b8f89144f29.jpg",
+            "publishedAt": "2023-06-22T05:02:00Z",
+            "content": "Egy érdekes, ám kissé homályos szabadalom mentén újítaná meg az évtizedek óta változatlan biztonsági övet az Apple.\r\nAz Apple saját autója egy ideje már pletykák tárgya, bár egyelre semmi konkrétum n… [+2003 chars]"
+        },
+        {
+            "source": {
+                "id": "independent",
+                "name": "Independent"
+            },
+            "author": "Tom Murray",
+            "title": "Christopher Nolan says people are walking out of Oppenheimer ‘devastated’: ‘They can’t speak’",
+            "description": "‘I showed it to a filmmaker recently who said it’s kind of a horror movie,’ director says of his new movie",
+            "url": "https://www.independent.co.uk/arts-entertainment/films/news/oppenheimer-christopher-nolan-reviews-cillian-murphy-b2362061.html",
+            "urlToImage": "https://static.independent.co.uk/2023/06/01/21/newFile-2.jpg?quality=75&width=1200&auto=webp",
+            "publishedAt": "2023-06-22T05:01:48Z",
+            "content": "Get our free weekly email for all the latest cinematic news from our film critic Clarisse Loughrey\r\nGet our The Life Cinematic email for free\r\nChristopher Nolan has described the visceral reactions o… [+2394 chars]"
+        },
+        {
+            "source": {
+                "id": "independent",
+                "name": "Independent"
+            },
+            "author": "Tom Murray",
+            "title": "Christopher Nolan says people are walking out of Oppenheimer ‘devastated’: ‘They can’t speak’",
+            "description": "‘I showed it to a filmmaker recently who said it’s kind of a horror movie,’ director says of his new movie",
+            "url": "https://www.independent.co.uk/arts-entertainment/films/news/oppenheimer-early-screening-reviews-christopher-nolan-b2361995.html",
+            "urlToImage": "https://static.independent.co.uk/2023/06/01/21/newFile-2.jpg?quality=75&width=1200&auto=webp",
+            "publishedAt": "2023-06-22T00:27:44Z",
+            "content": "Get our free weekly email for all the latest cinematic news from our film critic Clarisse Loughrey\r\nGet our The Life Cinematic email for free\r\nChristopher Nolan has described the visceral reactions o… [+2394 chars]"
+        },
+        {
+            "source": {
+                "id": "independent",
+                "name": "Independent"
+            },
+            "author": "Tom Murray",
+            "title": "Secret Invasion: Marvel faces backlash from artists and fans over AI-generated opening sequence",
+            "description": "Show’s executive producer argued that the use of AI fitted into the show’s themes",
+            "url": "https://www.independent.co.uk/arts-entertainment/tv/news/secret-invasion-intro-ai-marvel-b2362050.html",
+            "urlToImage": "https://static.independent.co.uk/2023/06/21/23/newFile.jpg?quality=75&width=1200&auto=webp",
+            "publishedAt": "2023-06-22T04:42:21Z",
+            "content": "Sign up to our free IndyArts newsletter for all the latest entertainment news and reviews\r\nSign up to our free IndyArts newsletter\r\nMarvel is facing backlash from artists and fans alike over the open… [+3037 chars]"
+        },
+        {
+            "source": {
+                "id": "independent",
+                "name": "Independent"
+            },
+            "author": "Nicole Vassell",
+            "title": "Robert Downey Jr says that his time in prison was ‘the worst thing that happened to me’",
+            "description": "Star of the ‘Iron Man’ films served a year in prison in his 30s after missing court-ordered drug tests",
+            "url": "https://www.independent.co.uk/arts-entertainment/films/news/robert-downey-jr-jail-dax-shepard-b2362066.html",
+            "urlToImage": "https://static.independent.co.uk/2023/06/21/14/newFile.jpg?quality=75&width=1200&auto=webp",
+            "publishedAt": "2023-06-22T05:05:27Z",
+            "content": "Get our free weekly email for all the latest cinematic news from our film critic Clarisse Loughrey\r\nGet our The Life Cinematic email for free\r\nRobert Downey Jr has looked back on his stint in prison … [+2848 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Panthers Wire",
+            "title": "12 remaining free-agent cornerbacks the Panthers could still sign",
+            "description": "Here are 12 notable cornerbacks who are still available in free agency.",
+            "url": "https://pantherswire.usatoday.com/lists/nfl-free-agency-panthers-cornerbacks-marcus-peters-eli-apple-troy-hill-casey-hayward/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/K1WZo5P3cbJvC1esBrBwIA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02OTQ-/https://media.zenfs.com/en/carolina_panthers_wire_usa_today_sports_articles_855/c36df6062712b0d1e5ae349ce3b36693",
+            "publishedAt": "2023-06-22T04:00:12Z",
+            "content": "On Wednesday, ESPN NFL insider Field Yates suggested that the Carolina Panthersadd some cornerback depth before the offseason comes to an end. But lets be honest, we really didnt need a reminder.\r\nBe… [+1503 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Cardinals Wire",
+            "title": "Cardinals’ linebacking corps in bottom third but not ranked at bottom",
+            "description": "Pro Football Focus ranked the Cardinals 23rd.",
+            "url": "https://cardswire.usatoday.com/2023/06/21/cardinals-linebacking-corps-in-bottom-third-but-not-ranked-at-bottom/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/v4kGNHHMzCBP84JTnl3g3A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03ODg-/https://media.zenfs.com/en/arizona_cardinals_wire_usa_today_sports_articles_662/7c5418cf35bb4cc997ea1074963a43d5",
+            "publishedAt": "2023-06-22T00:09:17Z",
+            "content": "The Arizona Cardinals have been at or near the bottom of almost every ranking and list this offseason. However, in Pro Football Focus offseason rankings for all 32 NFL teams linebacking corps, Arizon… [+1797 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Iphon.fr"
+            },
+            "author": "Pierre Otin",
+            "title": "iOS 17 : la bêta 2 (développeurs) vient de sortir, comment l’installer ?",
+            "description": "Accompagné d'iPadOS 17b2.",
+            "url": "https://www.iphon.fr/post/comment-installer-ios-17-beta",
+            "urlToImage": "https://www.iphon.fr/app/uploads/2023/04/ios-17.jpg",
+            "publishedAt": "2023-06-22T04:27:56Z",
+            "content": "Hier soir, Apple a publié une nouvelle bêta pour iOS 17 et iPadOS 17. Idem pour macOS Sonoma, tvOS 17 et watchOS 10 par ailleurs. Rappelons que ces nouvelles versions majeures des systèmes d’exploita… [+2117 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Anthony Lim",
+            "title": "2023 Mazda 2 facelift debuts in Thailand – hatchback and sedan, 1.3L petrol/1.5L diesel, five variants each",
+            "description": "Revealed in January, the Mazda 2 facelift has now been launched in Thailand in both hatchback and sedan forms, with the latter making its first showing, shown here in photos courtesy of Headlight Magazine. As […]\nThe post 2023 Mazda 2 facelift debuts in Thail…",
+            "url": "https://paultan.org/2023/06/22/2023-mazda-2-facelift-debuts-in-thailand-hatchback-and-sedan-1-3l-petrol-1-5l-diesel-five-variants-each/",
+            "urlToImage": "https://paultan.org/image/2023/06/2023-Mazda-2-faceliift-sedan-630x340.jpg",
+            "publishedAt": "2023-06-22T05:24:49Z",
+            "content": "Revealed in January, the Mazda 2 facelift has now been launched in Thailand in both hatchback and sedan forms, with the latter making its first showing, shown here in live images courtesy of Headligh… [+2713 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Mohd Farid Awaludin",
+            "title": "Toyota GR86 Trueno Edition 2024 – hanya untuk pasaran AS & Kanada, kenang AE86 Sprinter Trueno",
+            "description": "Toyota telah pun memperkenalkan model edisi terhad untuk kereta sport GR86 yang digelar sebagai Toyota GR86 Trueno Edition. Walau bagaimanapun, model ini dihasilkan hanya untuk pasaran Amerika Syarikat dan Kanada, dan ia diperkenalkan sekali dengan model asas…",
+            "url": "https://paultan.org/2023/06/22/toyota-gr86-trueno-edition-2024-hanya-untuk-pasaran-as-kanada-kenang-ae86-sprinter-trueno/",
+            "urlToImage": "https://paultan.org/image/2023/06/Toyota-GR86-Trueno-Edition-2024_BM_00020-e1687398987594-1200x707.jpg",
+            "publishedAt": "2023-06-22T01:59:59Z",
+            "content": "Toyota telah pun memperkenalkan model edisi terhad untuk kereta sport GR86 yang digelar sebagai Toyota GR86 Trueno Edition. Walau bagaimanapun, model ini dihasilkan hanya untuk pasaran Amerika Syarik… [+5409 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Www.nzz.ch"
+            },
+            "author": "Dieter Bachmann (dba)",
+            "title": "Ein Gesuch von Apple sorgt in der Schweiz für Aufregung: Wo sind Äpfel als Marke schutzfähig?",
+            "description": "Vor Jahren hat ein Disput zwischen dem Technologiekonzern und den SBB um das Design der Bahnhofsuhr für Schlagzeilen gesorgt. In einem neuen Fall sind es die Obstbauern.",
+            "url": "https://www.nzz.ch/wirtschaft/ein-gesuch-von-apple-sorgt-in-der-schweiz-fuer-aufregung-wo-sind-aepfel-als-marke-schutzfaehig-ld.1743616",
+            "urlToImage": "https://img.nzz.ch/2022/01/17/973e97d0-bedf-4c6c-bde0-a2e3209cea5b.jpeg?width=1200&height=675&fit=bound&quality=75&auto=webp&crop=5760,3240,x0,y600&wmark=nzz",
+            "publishedAt": "2023-06-22T03:30:00Z",
+            "content": "Äpfel sind auch Juristenfutter.\r\nEs ist eine David-gegen-Goliath-Geschichte, wie man sie gerne liest: «Apple bedrängt Schweizer Obstverband» unter diesem oder ähnlichen Titeln berichten Medien im In-… [+3957 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ifun.de › Apple-News seit 2001"
+            },
+            "author": "Nicolas",
+            "title": "macOS-Updates: Ventura, Monterey und Big Sur sind verwundbar",
+            "description": "Zeitgleich mit der gestrigen Bereitstellung von iOS 16.5.1 und watchOS 9.5.2 hat Apple auch sein Mac-Betriebssystem macOS aktualisiert und Sicherheitsupdates für das aktuelle und die beiden zurückliegenden Hauptversionen ausgegeben. Zur Aktualisierung verfügb…",
+            "url": "https://www.ifun.de/macos-updates-ventura-monterey-und-big-sur-sind-verwundbar-212386/",
+            "urlToImage": "https://images.ifun.de/wp-content/uploads/2021/07/macos-update-feature.jpg",
+            "publishedAt": "2023-06-22T04:57:08Z",
+            "content": "Zeitgleich mit der gestrigen Bereitstellung von iOS 16.5.1 und watchOS 9.5.2 hat Apple auch sein Mac-Betriebssystem macOS aktualisiert und Sicherheitsupdates für das aktuelle und die beiden zurücklie… [+1558 chars]"
+        },
+        {
+            "source": {
+                "id": "next-big-future",
+                "name": "Next Big Future"
+            },
+            "author": "Brian Wang",
+            "title": "SpaceX Will Leverage Mass Production into a Satellite Monopoly",
+            "description": "Space News has an article by Justin Fauntleroy, who is a government contractor responsible for writing future concepts and doctrine for the U.S. military, specifically the Joint Staff and Naval Warfare Development Center. Justin describes how SpaceX will not …",
+            "url": "https://www.nextbigfuture.com/2023/06/spacex-will-leverage-mass-production-into-a-satellite-monopoly.html",
+            "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2023/06/starshieldconfig.jpg",
+            "publishedAt": "2023-06-22T00:29:16Z",
+            "content": "Space News has an article by Justin Fauntleroy, who is a government contractor responsible for writing future concepts and doctrine for the U.S. military, specifically the Joint Staff and Naval Warfa… [+5824 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Index.hu"
+            },
+            "author": "Gábor Zoltán",
+            "title": "Igazi erőművet mutatott be a Lenovo",
+            "description": "Igazi erőművet mutatott be a Lenovo - Elképesztő, mire képes a Thinkstation PX.",
+            "url": "https://index.hu/techtud/2023/06/22/lenovo-thinkstation-px-p7-p5-munkaallomas/",
+            "urlToImage": "https://kep.cdn.index.hu/1/0/4949/49490/494905/49490504_3772730_d8436fe181fcad7824afa0229eff51f4_wm.jpg",
+            "publishedAt": "2023-06-22T05:51:00Z",
+            "content": "Három új csúcskategóriás asztali munkaállomást is leleplezett a Lenovo, amelyekkel nem az átlagfelhasználókat szeretnék megcélozni a készülékek teljesítménye ugyanis akkora, hogy azzal a legtöbb szám… [+4701 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "HipHopDX"
+            },
+            "author": "Marisa Mendez",
+            "title": "Ty Dolla $ign Taps Symba & Leon Thomas For More Motion, Less Emotion Tour",
+            "description": "Ty Dolla $ign announced the 'More Motion, Less Emotion' tour with opening acts Symba and Leon Thomas that will make its way around the U.S. in the fall.",
+            "url": "https://hiphopdx.com/news/ty-dolla-sign-symba-leon-thomas-more-motion-less-emotion-tour",
+            "urlToImage": "https://static.hiphopdx.com/2023/06/ty-dolla-sign-taps-symba-and-leon-thomas-for-more-motion-less-emotion-tour-1200x675.jpg",
+            "publishedAt": "2023-06-22T02:00:27Z",
+            "content": "Ty Dolla $ign will be taking his show back on the road, and this time, hes bringing Symba and Leon Thomas along with him.\r\nOn Tuesday (June 20), the three artists announced the More Motion, Less Emot… [+2143 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "HipHopDX"
+            },
+            "author": "Michael Saponara",
+            "title": "Killer Mike Confirms Andre 3000 Is Preparing New Album",
+            "description": "Killer Mike confirmed that André 3000 has a new solo album in the works. Mike has even heard about nine tracks from 3 Stacks that will potentially make the cut.",
+            "url": "https://hiphopdx.com/news/killer-mike-andre-3000-album",
+            "urlToImage": "https://static.hiphopdx.com/2023/06/killer-mike-confirms-andre-3000-album-1-1200x675.jpg",
+            "publishedAt": "2023-06-22T01:00:03Z",
+            "content": "Killer Mike has confirmed rumors that amid André 3000s travels across the globe, the Outkast icon is indeed working on a brand new solo album.\r\nKiller Mike joined Sways Universe on Wednesday (June 21… [+2451 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Celtics Wire",
+            "title": "Report: Celtics dealing Marcus Smart to Memphis as part of Kristaps Porzingis deal",
+            "description": "Marcus Smart is headed to Memphis and Kristaps Porzingis is headed to Boston as part of a surprising blockbuster trade for the Celtics. Here's what we know so far.",
+            "url": "https://celticswire.usatoday.com/2023/06/22/report-celtics-trade-marcus-smart-to-memphis-reel-in-kristaps-porzingis-and-draft-capital-in-blockbuster-deal/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/afZsNtqq0ACZbpFsbF4v_g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/celtics_wire_usa_today_sports_articles_699/c11e86a0bcf709bd7f0b6f64d218596f",
+            "publishedAt": "2023-06-22T04:26:23Z",
+            "content": "The Boston Celtics have begun the 2023 season with a massive three-team deal according to ESPNs Adrian Wojnarowski. Boston is sending veteran guard Marcus Smart to Memphis as part of the deal. In ret… [+1068 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Celtics Wire",
+            "title": "Report: Clippers pull out of Brogdon-Porzingis deal citing injury concerns, Wiz and Celtics work toward new deal",
+            "description": "The Clippers have reportedly pulled out of the three-team trade centered around Malcom Brogdon and Kristaps Porzingis because of injury concerns while Boston and Washington pursue other routes.",
+            "url": "https://celticswire.usatoday.com/2023/06/21/report-clippers-pull-out-of-brogdon-porzingis-deal-citing-injury-concerns-wiz-and-celtics-work-toward-new-deal/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/gVlTRIK7tkR1G._jekVLiw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/celtics_wire_usa_today_sports_articles_699/e93836ee84dcf2daee9dbc24348efc9f",
+            "publishedAt": "2023-06-22T02:51:13Z",
+            "content": "The three-team deal that would send big man Kristaps Porzingis to the Boston Celtics is reportedly on hold, according to ESPNs Adrian Wojnarowski. The Los Angeles Clippers, the theoretical landing sp… [+1370 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Celtics Wire",
+            "title": "Celtics trade Marcus Smart to Memphis, land Kristaps Porzingis in massive deal with Wizards and Grizzlies",
+            "description": "The Boston Celtics are bringing aboard Kristaps Porzingis next season, but sending Marcus Smart to Memphis in the process as part of a blockbuster deal with the Wizards and Grizzlies.",
+            "url": "https://celticswire.usatoday.com/lists/nba-boston-celtics-kristaps-trade/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/2tHrvUBxWdVL5Cv.jWQ6yQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/celtics_wire_usa_today_sports_articles_699/80058313bf5efd7405cac4d49da042c6",
+            "publishedAt": "2023-06-22T05:09:30Z",
+            "content": "The Boston Celtics have opened up the 2023 offseason with surprise fireworks, sending veteran guard Marcus Smart to the Memphis Grizzlies while reeling in former All-Star Kristaps Porzingis and draft… [+5257 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "LA Times",
+            "title": "NBA 2023 draft: 7-4 Victor Wembanyama spurs visions of superstardom",
+            "description": "At 7-4 with skills of a guard, Victor Wembanyama should be the top pick Thursday in the NBA draft by the San Antonio Spurs and has greatness often compared to LeBron James.",
+            "url": "https://sports.yahoo.com/nba-2023-draft-7-4-005847329.html",
+            "urlToImage": "https://media.zenfs.com/en/la_times_articles_853/839550b265c8a510916c88bb9a1de18f",
+            "publishedAt": "2023-06-22T00:58:47Z",
+            "content": "Victor Wembanyama, a projected first-round NBA draft pick, juggles baseballs before throwing the ceremonial first pitch Tuesday before a Yankees game. He has been a fan magnet in New York this week. … [+8234 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ixbt.com"
+            },
+            "author": "jin@ixbt.com (Jin)",
+            "title": "Apple выпустила новые версии iOS для актуальных и старых iPhone. Также всем доступна свежая бета-версия iOS 17",
+            "description": "Сегодня Apple выпустила iOS 16.5.1 и iPadOS 16.5.1, небольшие обновления для операционных систем iOS 16 и iPadOS 16, выпущенных в сентябре прошлого года. iOS 16.5.1 выходит через месяц после того, как Apple выпустила iOS 16.5. iOS 16.5.1 и iPadOS 16.5.1 можно…",
+            "url": "https://www.ixbt.com/news/2023/06/22/apple-ios-iphone-ios-16-5-1-apple-lightning-to-usb-3-camera-adapter.html",
+            "urlToImage": "https://www.ixbt.com/img/n1/news/2023/5/4/photo_2023-06-22_07-26-11_large.jpg",
+            "publishedAt": "2023-06-22T04:22:00Z",
+            "content": "Apple iOS 16.5.1 iPadOS 16.5.1, iOS 16 iPadOS 16, . iOS 16.5.1 , Apple iOS 16.5.\r\niOS 16.5.1 iPadOS 16.5.1 iPhone iPad , «» &gt; «» &gt; « ».\r\n Apple , . , Apple Lightning to USB 3 Camera Adapter.\r\n … [+128 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ixbt.com"
+            },
+            "author": "jin@ixbt.com (Jin)",
+            "title": "Google издевается над Apple, рассказывая, как iPhone во всём уступает Pixel",
+            "description": "Компания Google опубликовала на YouTube-канале Made by Google серию рекламных видеороликов Best Phones Forever, в которых превозносятся смартфоны Pixel и указывается на слабые качества. \r\n В этих роликах последние Pixel и iPhone общаются будто старые друзья, …",
+            "url": "https://www.ixbt.com/news/2023/06/22/google-apple-iphone-pixel.html",
+            "urlToImage": "https://www.ixbt.com/img/n1/news/2023/5/4/Снимок%20экрана%202023-06-22%20065236_large.png",
+            "publishedAt": "2023-06-22T03:49:00Z",
+            "content": "Google YouTube- Made by Google Best Phones Forever, Pixel .\r\n Pixel iPhone , iPhone , Pixel, , iPhone .\r\niPhone , , Pixel, Pixel 30- . iPhone - Wi-Fi , Pixel , .\r\n iPhone , Pixel c . Pixel Fold, iPho… [+3 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nextpit.com"
+            },
+            "author": "Jade Bryan",
+            "title": "OnePlus Adds Cross-device Features to OnePlus Pad via New Update",
+            "description": "OnePlus is adding a handful of cross-device features like call and app syncing to the OnePlus Pad tablet through the latest Oxygen 13.1 software update.(This is a preview - click here to read the entire entry.)",
+            "url": "https://www.nextpit.com/oneplus-pad-oxygen-13-1-software-update-cross-screen-app-call-sync",
+            "urlToImage": "https://fscl01.fonpit.de/userfiles/7734655/image/OnePlus-Pad-OnePlus-11-and-Buds-Pro-2.jpg",
+            "publishedAt": "2023-06-22T01:41:44Z",
+            "content": "© OnePlus\r\nOnePlus's Pad is the first tablet from the Chinese brand that was launched a couple of months ago. Today, OnePlus announced it has released the Oxygen 13.1 update that enables a few cross-… [+3310 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Huffingtonpost.es"
+            },
+            "author": "Jorge Álvarez",
+            "title": "Descifrando la sesión de Bizarrap y Rauw Alejandro: \"No tiene que haber boda\"",
+            "description": "<![CDATA[<p>Tres semanas después de probar suerte con el mexicano Peso Pluma, el dj, productor y compositor Bizarrap está de vuelta con una nueva sesión, la número 56. Una colaboración con el puertorriqueño Rauw Alejandro que, además, ha servido de carta de p…",
+            "url": "https://www.huffingtonpost.es/life/cultura/descifrando-sesion-bizarrap-rauw-alejandro-haber-bodabr.html",
+            "urlToImage": "https://img.huffingtonpost.es/files/og_thumbnail/uploads/2023/06/22/bizarrap-y-rauw-alejandro-en-la-imagen-promocional-de-su-colaboracion.jpeg",
+            "publishedAt": "2023-06-22T05:26:36Z",
+            "content": "Tres semanas después de probar suerte con el mexicano Peso Pluma, el dj, productor y compositor Bizarrap está de vuelta con una nueva sesión, la número 56. Una colaboración con el puertorriqueño Rauw… [+3649 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Smzdm.com"
+            },
+            "author": null,
+            "title": "Apple 苹果 MacBook Air 2022款 13.6英寸笔记本电脑（M2、8GB、256GB、2.5K）教育优惠 8249元包邮（需用券）",
+            "description": "Apple 苹果 MacBook Air 2022款 13.6英寸笔记本电脑（M 8249元（需用券）,什么值得买甄选出京东优惠促销商品,包括Apple/苹果报价、多少钱等信息,认真生活,好好花钱就上什么值得买。",
+            "url": "https://www.smzdm.com/p/83582624/",
+            "urlToImage": "https://qny.smzdm.com/202303/07/6406a5e7f657b9841.jpg_d250.jpg",
+            "publishedAt": "2023-06-22T05:10:16Z",
+            "content": "MacBook Pro14.216.2M1 ProM1 Max3.5mm100%R\r\nmini LEDLiquid Retina XDR160010011080pISP2ProMotion120Hz\r\nMacBook ProHDMIMagSafeSD4MagSafeMagSafe4MacBook Pro\r\nMacBook ProM1 ProM1 Max141616MacBook ProM1 Pr… [+67 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Smzdm.com"
+            },
+            "author": null,
+            "title": "百亿补贴：Apple 苹果 Mac mini 2023款 电脑主机（M2、8GB、256GB） 3249元包邮（需用券）",
+            "description": "拼多多此款目前活动售价3319元，页面可领取70元优惠券，到手价低至3249元。近期好价。最低多钱来着？有可能还能整个果园的券更低",
+            "url": "https://www.smzdm.com/p/83578058/",
+            "urlToImage": "https://qny.smzdm.com/202304/28/644bbf5efb3a4427.jpg_d250.jpg",
+            "publishedAt": "2023-06-22T03:39:02Z",
+            "content": "·\r\n Mac mini M2 M2 Pro M2 M2 4 4 10 16 100GB/s H.264HEVCProRes ProRes RAW ProRes M2 Mac mini ProRes Final Cut ProM2 30 fps 2 8K ProRes 422 30 fps 12 4K ProRes 422 \r\n M2 Pro M2 Pro 10 6 4 19 M2 200GB … [+230 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Smzdm.com"
+            },
+            "author": null,
+            "title": "百亿补贴：Apple 苹果 iPhone 14 Pro Max 5G智能手机 128GB 7049元包邮（需用券）",
+            "description": "樱fa树下iPhone 14系列旗舰超大杯，全新「灵动岛」设计，性能、影像大升级。叠加100元优惠券。",
+            "url": "https://www.smzdm.com/p/83577175/",
+            "urlToImage": "https://qny.smzdm.com/202209/08/6319589b2cea7589.jpg_d250.jpg",
+            "publishedAt": "2023-06-22T05:52:12Z",
+            "content": "iPhone 14 Pro Max 6.72796*1290460PPIApp1000HDR16002000 ProMotion Super Retina XDR 1 Hz120 HzAlways-On\r\niPhone 14 ProA164nm160 6 CPU A1520%A16 Bionic 5 GPU 50% 16 17 iPhone 14 Pro Max 29iPhone 14\r\niPh… [+51 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Appps.jp"
+            },
+            "author": "saki",
+            "title": "Apple史上初のvisionOSベータ版をリリース！東京には開発者ラボも",
+            "description": "Appleは本日、史上初のvisionOS1.0開発者ベータ版を公開しました。また、「visionOS」ソフトウェア開発キット(SDK) の発表も行われました。 Apple史上初のvisionOSベー…",
+            "url": "https://www.appps.jp/377644/",
+            "urlToImage": "https://www.appps.jp/wp-content/uploads/2023/06/nlpektl.jpg",
+            "publishedAt": "2023-06-22T03:06:02Z",
+            "content": "ApplevisionOS1.0visionOS(SDK) \r\nApple WWDC2023Vision ProvisionOSARVR3D\r\nApplevisionOS\r\nAppleVision ProvisionOS(SDK)Xcode152\r\nAppleVision ProvisionOS SDKVision ProvisionOS\r\nAppleVision Pro\r\nApple Visi… [+36 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Appps.jp"
+            },
+            "author": "saki",
+            "title": "iOS15.7.7とiPadOS15.7.7リリース！目的はセキュリティアップデート",
+            "description": "iOS15.7.6を公開してから約5週間、Appleは本日iPhoneとiPadユーザー向けのiOS15.7.7とiPadOS15.7.7でセキュリティアップデートをリリースしました。iOS15.7.7とiPadOS15.7.7はiOS16とiPadOS16にアップグレードできないユーザーを対象としています。",
+            "url": "https://www.appps.jp/377640/",
+            "urlToImage": "https://www.appps.jp/wp-content/uploads/2022/10/xlpw-1.jpg",
+            "publishedAt": "2023-06-22T02:12:47Z",
+            "content": "iOS15.7.61AppleiPhoneiPadiOS15.7.7iPadOS15.7.7\r\niOS15.7.7iPadOS15.7.7iOS16iPadOS16\r\niOS15.7.7iPadOS15.7.7\r\nAppleiOS15.7.7iPadOS15.7.7\r\niOS15.7.7iPadOS15.7.7\r\nAppleiOS15.7.7iPadOS15.7.73Apple\r\n<ul><li… [+112 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Finovate.com"
+            },
+            "author": "David Penn",
+            "title": "5 Tales from the Crypto: Signs of a Comeback?",
+            "description": "Financial advisor, author, and CNBC commentator Josh Brown raised a few eyebrows this week when he told viewers that he thought that cryptocurrencies were entering a new phase, a phase that could spell the end of the crypto winter. “This week, I think, with a…",
+            "url": "https://finovate.com/5-tales-from-the-crypto-signs-of-a-comeback/",
+            "urlToImage": "https://finovate.com/wp-content/uploads/2023/06/pexels-worldspectrum-844127.jpg",
+            "publishedAt": "2023-06-22T03:49:29Z",
+            "content": "Financial advisor, author, and CNBC commentator Josh Brown raised a few eyebrows this week when he told viewers that he thought that cryptocurrencies were entering a new phase, a phase that could spe… [+5800 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ozbargain.com.au"
+            },
+            "author": "superforever",
+            "title": "Apple AirTag 1-Pack MX532X/A $39 Delivered @ Futu online eBay",
+            "description": "Key Features\n\nKeep track of and find your items alongside friends and devices in the Find My app\nSimple one-tap setup instantly connects AirTag with your iPhone or iPad\nPlay a sound on the built-in speaker to help find your things\nFind items further away with…",
+            "url": "https://www.ozbargain.com.au/node/783104",
+            "urlToImage": "https://files.ozbargain.com.au/n/04/783104l.jpg?h=62d48a8b",
+            "publishedAt": "2023-06-22T00:12:06Z",
+            "content": "Key Features\r\nKeep track of and find your items alongside friends and devices in the Find My appSimple one-tap setup instantly connects AirTag with your iPhone or iPadPlay a sound on the built-in spe… [+491 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MMA Fighting"
+            },
+            "author": "Jed Meshew",
+            "title": "No Bets Barred: Can Ilia Topuria punch his way to a title shot at UFC Jacksonville?",
+            "description": "Conner Burks and Jed Meshew return with a full breakdown of UFC Jacksonville and discuss Ilia Topuria’s chances of earning a title shot with a win over Josh Emmett.",
+            "url": "https://www.mmafighting.com/2023/6/21/23768540/no-bets-barred-can-ilia-topuria-punch-his-way-to-a-title-shot-at-ufc-jacksonville",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/V03OKsAwUVsVh7F_1mpBJpwPJAc=/0x0:5291x2770/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24740919/1448249196.jpg",
+            "publishedAt": "2023-06-22T00:00:00Z",
+            "content": "Ilia Topuria | Photo by Cooper Neill/Zuffa LLC\r\n\n \n\n No Bets Barred is turning the big 5-0! That’s right, your favorite MMA gambling podcast is back with it’s 50th episode — and what better way for t… [+775 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "mobiFlip.de"
+            },
+            "author": "Giovanni Senioroce",
+            "title": "Apple veröffentlicht Software-Updates und rät zum sofortigen Update",
+            "description": "Der US-amerikanische Hard- und Softwareentwickler Apple hat wieder einmal Produktpflege betrieben und für eine Reihe von Plattformen neue Software-Updates veröffentlicht. Das Unternehmen hat dabei nicht nur aktuelle Systeme im Visier. […]",
+            "url": "https://www.mobiflip.de/shortnews/apple-veroeffentlicht-software-updates-und-raet-zum-sofortigen-update/",
+            "urlToImage": "https://www.mobiflip.de/wp-content/uploads/2023/05/apple-mac-iphone-ipad-header.jpg",
+            "publishedAt": "2023-06-22T03:34:01Z",
+            "content": "Der US-amerikanische Hard- und Softwareentwickler Apple hat wieder einmal Produktpflege betrieben und für eine Reihe von Plattformen neue Software-Updates veröffentlicht. Das Unternehmen hat dabei ni… [+802 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Applech2.com"
+            },
+            "author": "applech2",
+            "title": "Apple、ゼロデイ脆弱性を修正した「macOS 11.7.8 Big Sur」と「macOS 12.6.7 Monterey」および「Safari 16.5.1」をリリース。",
+            "description": "Appleがゼロデイ脆弱性を修正した「macOS 11.7.8 Big Sur」と「macOS 12.6.7 Monterey」および「Safari 16.5.1」をリリースしています。詳細は以下から。 　Appleは\nThe post Apple、ゼロデイ脆弱性を修正した「macOS 11.7.8 Big Sur」と「macOS 12.6.7 Monterey」および「Safari 16.5.1」をリリース。 first appeared on AAPL Ch..",
+            "url": "https://applech2.com/archives/20230622-apple-security-update-for-mac-june-2023.html",
+            "urlToImage": "https://applech2.com/wp-content/uploads/2023/06/macOS-11-7-8-Big-Sur-release-note.jpg",
+            "publishedAt": "2023-06-22T04:13:29Z",
+            "content": "2023/6/22macOS 11 Big Sur, macOS 12 Monterey\r\nApplemacOS 11.7.8 Big SurmacOS 12.6.7 MontereySafari 16.5.1\r\nApple202306212macOS 13.4.1 Ventura (22F82/22F2083)macOS Big SurMontereymacOS 11.7.7 Big Sur … [+845 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Maclife.de"
+            },
+            "author": "Andreas Donath",
+            "title": "iOS 17 Beta 2 enthüllt vielversprechende Funktionen",
+            "description": "Apple hat iOS 17 Beta 2 an Entwickler verteilt und damit einen Einblick in das kommende Software-Update für iPhone-Nutzer gegeben.  (Weiterlesen)",
+            "url": "https://www.maclife.de/news/apple-veroeffentlicht-ios-17-beta-2-100122482.html",
+            "urlToImage": "https://www.maclife.de/media/maclife/styles/tec_frontend_opengraph/public/images/editors/2023_25/image-122482--4599403.jpeg?itok=muT6_emB",
+            "publishedAt": "2023-06-22T04:30:58Z",
+            "content": "Die neueste Beta-Version 2 von iOS 17 enthält eine Reihe bemerkenswerter Änderungen und Verbesserungen und zeigt, wie sehr Apple an der Verbesserung der Benutzerfreundlichkeit arbeitet.\r\nEine der auf… [+1311 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Applech2.com"
+            },
+            "author": "applech2",
+            "title": "Apple、iPhone 6s/SE (第1世代)やiPod touch (第7世代)、iPad Air 2/mini 4向けに複数のゼロデイ脆弱性を修正した「iOS/iPadOS 15.7.7 (19H357)」をリリース。",
+            "description": "AppleがiPhone 6s/SE (第1世代)やiPod touch (第7世代)、iPad Air 2/mini 4向けに複数のゼロデイ脆弱性を修正した「iOS/iPadOS 15.7.7 (19H357)」をリ\nThe post Apple、iPhone 6s/SE (第1世代)やiPod touch (第7世代)、iPad Air 2/mini 4向けに複数のゼロデイ脆弱性を修正した「iOS/iPadOS 15.7.7 (19H357)」をリリース。 first appeared on AAPL Ch..",
+            "url": "https://applech2.com/archives/20230622-ios-15-7-7-security-update.html",
+            "urlToImage": "https://applech2.com/wp-content/uploads/2023/06/iOS-1577-security-update-iPad-mini-iPod-touch.jpg",
+            "publishedAt": "2023-06-22T00:38:16Z",
+            "content": "AppleiPhone 6s/SE (1)iPod touch (7)iPad Air 2/mini 4iOS/iPadOS 15.7.7 (19H357)\r\nApple20230621iPhone 6iPhone 7iPhone SE (1)iPhone SE (1)iPad Air 2iPad mini 4iPod touch (7)iOS/iPadOS 15.7.7 (19H357)\r\ni… [+200 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Ferra.ru"
+            },
+            "author": "Булат Кармак",
+            "title": "Какая часть годовой зарплаты типичного россиянина равна цене iPhone 14 Pro",
+            "description": "Исследование World of Statistics показало, какую долю годовой зарплаты жители разных стран потратят при желании купить iPhone 14 Pro 128 ГБ.",
+            "url": "https://www.ferra.ru/news/mobile/kakaya-chast-godovoi-zarplaty-tipichnogo-rossiyanina-ravna-cene-iphone-14-pro-22-06-2023.htm",
+            "urlToImage": "https://www.ferra.ru/imgs/2023/06/22/05/5958432/cfd39896a05a2563cb9ae1bb75db77a4d7cbb3c0.webp",
+            "publishedAt": "2023-06-22T05:23:41Z",
+            "content": "1,8% . 2%.\r\n 9,3%, 23,4%. , , Apple (34,7%), (59%).\r\n (104,1%) (105,3%), , iPhone.\r\n iPhone 14 Pro 16,3% . , , ."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "International Business Times"
+            },
+            "author": "Floralyn Teodoro",
+            "title": "TXT, Jonas Brothers Collab Song 'Do It Like That' Drops July 7: Everything To Know",
+            "description": "TXT and Jonas Brothers' collaboration song will drop on July 7.",
+            "url": "https://www.ibtimes.com/txt-jonas-brothers-collab-song-do-it-like-that-drops-july-7-everything-know-3701471",
+            "urlToImage": "https://d.ibtimes.com/en/full/4468532/txt-jonas-brothers.jpg",
+            "publishedAt": "2023-06-22T03:48:15Z",
+            "content": "TXT 06.21.2023 tweet@TXT_members/Twitter\r\nKEY POINTS\r\n<ul><li>The collab was previously hinted at through cryptic posts on social media</li><li>Tomorrow X Together's collaboration song with Jonas Bro… [+2995 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "International Business Times"
+            },
+            "author": "Jeff Mason and Nandita Bose",
+            "title": "Bidens To Greet India's Modi With Lotus Blooms, But No Gujarati Food",
+            "description": "President Joe Biden and first lady Jill Biden will welcome Indian Prime Minister Narendra Modi to a White House decorated with peacocks and lotus blooms on Thursday, hosting a vegetarian dinner but no specialties from Modi's home state of Gujarat.",
+            "url": "https://www.ibtimes.com/bidens-greet-indias-modi-lotus-blooms-no-gujarati-food-3701423",
+            "urlToImage": "https://d.ibtimes.com/en/full/4468490/us-first-lady-biden-hosts-media-preview-advance-thursdays-state-dinner-part-indian-prime.jpg",
+            "publishedAt": "2023-06-22T00:44:56Z",
+            "content": "A dish is pictured as U.S. first lady Jill Biden hosts a media preview in advance of Thursday's State Dinner as part of Indian Prime Minister Narendra Modi's official visit to the United States, in t… [+2213 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "International Business Times"
+            },
+            "author": "Catherine Armecin",
+            "title": "Kelly Clarkson Admits Not Handling Ex Brandon Blackstock Divorce Gracefully",
+            "description": "\"Just to be brutally honest, I did not handle it well,\" Kelly Clarkson said while talking about her divorce from ex-husband Brandon Blackstock.",
+            "url": "https://www.ibtimes.com/kelly-clarkson-admits-not-handling-ex-brandon-blackstock-divorce-gracefully-3701467",
+            "urlToImage": "https://d.ibtimes.com/en/full/3150098/kelly-clarkson.jpg",
+            "publishedAt": "2023-06-22T04:02:04Z",
+            "content": "Kelly Clarkson will be a judge on The Voice Season 20.Trae Patton/NBC\r\nKEY POINTS\r\n<ul><li>Kelly Clarkson talked about her divorce on \"The Zane Low Show\"</li><li>The singer said there were times she … [+3310 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Apple patch fixes zero-day kernel hole reported by Kaspersky – update now! - Naked Security",
+            "description": "<ol><li>Apple patch fixes zero-day kernel hole reported by Kaspersky – update now!  Naked Security\r\n</li><li>Apple Patches Three Zero-Day Flaws Reportedly Used To Target iPhones  CRN\r\n</li><li>Apple squashes kernel bug used by TriangleDB spyware  The Register…",
+            "url": "https://consent.google.com/ml?continue=https://news.google.com/rss/articles/CBMidGh0dHBzOi8vbmFrZWRzZWN1cml0eS5zb3Bob3MuY29tLzIwMjMvMDYvMjIvYXBwbGUtcGF0Y2gtZml4ZXMtemVyby1kYXkta2VybmVsLWhvbGUtcmVwb3J0ZWQtYnkta2FzcGVyc2t5LXVwZGF0ZS1ub3cv0gF4aHR0cHM6Ly9uYWtlZHNlY3VyaXR5LnNvcGhvcy5jb20vMjAyMy8wNi8yMi9hcHBsZS1wYXRjaC1maXhlcy16ZXJvLWRheS1rZXJuZWwtaG9sZS1yZXBvcnRlZC1ieS1rYXNwZXJza3ktdXBkYXRlLW5vdy9hbXAv?oc%3D5&gl=FR&hl=en-US&cm=2&pc=n&src=1",
+            "urlToImage": null,
+            "publishedAt": "2023-06-22T00:36:20Z",
+            "content": "We use cookies and data to<ul><li>Deliver and maintain Google services</li><li>Track outages and protect against spam, fraud, and abuse</li><li>Measure audience engagement and site statistics to unde… [+1131 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Mobilelaby.com"
+            },
+            "author": "Yusuke Sakakura",
+            "title": "Apple Vision Proの日本発売は早い？東京にデベロッパラボがオープン",
+            "description": "2024年初頭に発売予定の“初の空間コンピュータ”ーーApple Vision Proは、自分の目・手・声を使ってインターフェースやアプリを操作して、現実の空間でデジタルコンテンツを楽しめるデバイスです。\n\n今日、Appleは不思議ながらも自然な空間で動作する空間コンピューティングアプリを開発できるソフトウェアツール「visionOS SDK」の提供を開始し、東京も含めた世界各地にデベロッパラボをオープンすることを発表しました。\n\n続きを読む",
+            "url": "https://mobilelaby.com/blog-entry-apple-vision-pro-developer-lab.html",
+            "urlToImage": "https://mobilelaby.com/wp/wp-content/uploads/apple-vision-pro-developer-lab-800x449.jpg",
+            "publishedAt": "2023-06-22T00:10:52Z",
+            "content": "2024Apple Vision Pro\r\nApplevisionOS SDK\r\nApple Vision ProXcodeSwift UIARKitTestFlightApple Developer Program\r\nvisionOS\r\nAppleApple Vision ProApple\r\nApple Vision Pro\r\nApple Vision Pro202420245"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "N-tv.de"
+            },
+            "author": "n-tv NACHRICHTEN",
+            "title": "Mit Tourismus-Experte Ralf Benkö: Urlaub 2023: Preisfalle oder Schnäppchenparadies?",
+            "description": "Schnallt euch an und macht euch bereit für diesen Urlaubstalk! Etienne und Raimund stellen die wichtigsten Fragen rund um eure Reisepläne für dieses Jahr. Wie tief müsst ihr in die Tasche greifen? Gibt es noch Last-Minute-Schnäppchen für die Kurzentschlossene…",
+            "url": "https://www.n-tv.de/wirtschaft/Urlaub-2023-Preisfalle-oder-Schnaeppchenparadies-article24207013.html",
+            "urlToImage": "https://bilder3.n-tv.de/img/incoming/crop24206998/7391325205-cImg_16_9-w1200/406746427.jpg",
+            "publishedAt": "2023-06-22T05:00:00Z",
+            "content": "Schnallt euch an und macht euch bereit für diesen Urlaubstalk! Etienne und Raimund stellen die wichtigsten Fragen rund um eure Reisepläne für dieses Jahr. Wie tief müsst ihr in die Tasche greifen? Gi… [+809 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "N-tv.de"
+            },
+            "author": "n-tv NACHRICHTEN",
+            "title": "Geräumiger Schlusspunkt: Mercedes E-Klasse T-Modell - der Letzte seiner Art",
+            "description": "Mit dem E-Klasse T-Modell bringt Mercedes den wohl letzten großen Kombi seiner Geschichte auf den Markt. Der bietet extra viel Stauraum und Komfort. Mercedes will sich künftig auf Luxus-Limousinen und SUV konzentrieren, die T-Modelle stehen auf der Streichlis…",
+            "url": "https://www.n-tv.de/auto/Mercedes-E-Klasse-T-Modell-der-Letzte-seiner-Art-article24203467.html",
+            "urlToImage": "https://bilder3.n-tv.de/img/incoming/crop24203482/8941324219-cImg_16_9-w1200/23C0190-001.jpg",
+            "publishedAt": "2023-06-22T04:38:43Z",
+            "content": "Mit dem E-Klasse T-Modell bringt Mercedes den wohl letzten großen Kombi seiner Geschichte auf den Markt. Der bietet extra viel Stauraum und Komfort. Mercedes will sich künftig auf Luxus-Limousinen un… [+3495 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Iphone-mania.jp"
+            },
+            "author": "m7000",
+            "title": "Vision Pro用アプリ開発者向けに「visionOS SDK」がリリース",
+            "description": "Appleは現地時間6月21日、WWDC23で発表した複合現実（MR）ヘッドセット「Vision Pro」のアプリを開発するためのソフトウェア開発キット「visionOS SDK」をリリースしました。visionOS SDKは、同日に提供が開始されているXcode 15ベータ2をダウンロードすることで利用できるようになります。\n \n\n■3行で分かる、この記事のポイント\n1.Vision Pro用アプリ開発者向けに「visionOS SDK」がリリース。\n2.visionOS SDKは、Xcode 15ベータ2に含…",
+            "url": "https://iphone-mania.jp/vision_pro-542609/",
+            "urlToImage": "https://iphone-mania.jp/uploads/2023/06/22/Apple-Vision-Pro-SDK-availability-developer-lifestyle-e1687398252490.jpg",
+            "publishedAt": "2023-06-22T02:14:58Z",
+            "content": "Apple621WWDC23MRVision ProvisionOS SDKvisionOS SDKXcode 15231.Vision ProvisionOS SDK2.visionOS SDKXcode 1523.\r\nvisionOS SDK\r\nApplevisionOS SDK\r\nAppleVision ProvisionOS SDKVision ProvisionOS\r\n Vision … [+132 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Kocpc.com.tw"
+            },
+            "author": "Ross Wang",
+            "title": "如何讓 iPhone 自動刪除填入完成的 2FA 兩階段認證訊息",
+            "description": "最新的 iOS 17 介紹中被提到的 2FA 驗證簡訊的自動刪除功能，似乎超乎想像的方便呢！如果你也覺得看到訊息裡出現一堆這些訊息很煩的話。就請繼續閱讀如何讓 iPhone 自動刪除填入完成的 2FA 兩階段認證訊息報導內文。\nThe post 如何讓 iPhone 自動刪除填入完成的 2FA 兩階段認證訊息 appeared first on 電腦王阿達.",
+            "url": "https://www.kocpc.com.tw/archives/497295",
+            "urlToImage": "https://www.kocpc.com.tw/wp-content/uploads/2023/06/1686485257-bff9c7b83c055680a9d2665ce63a3f91.jpg",
+            "publishedAt": "2023-06-22T02:04:21Z",
+            "content": "iOS 17 2FA iPhone 2FA MacRumors\r\n One More Thing Vision Pro WWDC 2023 Mac 2FA \r\nApple 2FA – Face ID \r\n9to5MacApple iOS 17 2FA – \r\n iOS 17 &gt; &gt; Clean Up Automatically iOS 15 2FA – \r\nApple iOS 17 … [+40 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Xataka.com.mx"
+            },
+            "author": "Miguel Gutierrez",
+            "title": "Esta tierna mini impresora térmica portátil tiene un atractivo descuento en Amazon México por 358 pesos",
+            "description": "Anteriormente, te contamos sobre los Xiaomi Redmi Buds edición especial de ‘Harry Potter’, los cuales tienen toda la tecnología que ya conocemos en estos audífonos, pero con un toque mágico de diseño con el escudo del colegio Hogwarts.\n<!-- BREAK 1 -->\nY sigu…",
+            "url": "https://www.xataka.com.mx/seleccion/esta-tierna-mini-impresora-termica-portatil-tiene-atractivo-descuento-amazon-mexico-358-pesos",
+            "urlToImage": "https://i.blogs.es/19c920/impresora-termica-oferta-descuento-amazon-mexico-kawai-monos-chinos/840_560.jpeg",
+            "publishedAt": "2023-06-22T00:31:14Z",
+            "content": "Anteriormente, te contamos sobre los Xiaomi Redmi Buds edición especial de Harry Potter, los cuales tienen toda la tecnología que ya conocemos en estos audífonos, pero con un toque mágico de diseño c… [+1774 chars]"
+        }
+    ]
+}
